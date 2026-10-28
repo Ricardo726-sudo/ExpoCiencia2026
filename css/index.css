@@ -1,0 +1,396 @@
+/* ==================== SECCIÓN PORTADA (HERO BANNER INDEX) ==================== */
+.portada {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    padding: 60px 6%;
+    display: flex;
+    align-items: center;
+    background: 
+        linear-gradient(90deg,
+            rgba(11, 35, 69, 0.95) 0%,
+            rgba(11, 35, 69, 0.82) 50%,
+            rgba(11, 35, 69, 0.35) 100%
+        ),
+        url("../assets/img/portada/Portada.jfif") center / cover no-repeat;
+    color: var(--blanco);
+}
+
+.portada-contenido {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-end; 
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.portada-izquierda {
+    max-width: 580px;
+}
+
+.etiqueta {
+    display: inline-block;
+    color: var(--ciano);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.portada h1 {
+    font-size: clamp(40px, 4.5vw, 58px);
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 12px;
+}
+
+.portada h1 span {
+    color: var(--ciano);
+}
+
+.portada h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 14px;
+    color: #ffffff;
+}
+
+.portada-izquierda p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.5;
+    margin-bottom: 28px;
+    max-width: 500px;
+}
+
+.botones {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+/* TARJETAS FLOTANTES DE FECHA Y SEDE */
+.datos-eventos {
+    display: flex;
+    flex-direction: row; /* Fuerza a Fecha y Sede a ir de lado a lado */
+    gap: 16px;
+    align-self: flex-end;
+}
+
+.dato-card {
+    background-color: rgba(11, 35, 69, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 210px;
+}
+
+.dato-icono {
+    font-size: 22px;
+}
+
+.dato-card strong {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.dato-card p {
+    font-size: 13px;
+    color: #cbd5e1;
+    margin: 0;
+}
+
+/* ==================== HISTORIA NARRATIVA ==================== */
+.seccion-historia-narrativa {
+    background-color: var(--blanco);
+    padding: 60px 6%;
+}
+
+.contenedor-historia {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cabecera-historia {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cabecera-historia h2 {
+    color: var(--azul);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+
+/* Filas con Icono y Texto */
+.bloque-historia {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.icono-historia {
+    font-size: 32px;
+    background-color: #f1f5f9;
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.texto-historia h3 {
+    color: #1e3a8a;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.texto-historia p {
+    color: #475569;
+    font-size: 15.5px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Caja Especial resaltada para el 2026 */
+.caja-actualidad {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid var(--ciano); /* Línea lateral celeste */
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+}
+
+.caja-actualidad .icono-historia {
+    background-color: var(--blanco); /* El ícono resalta en blanco */
+}
+
+/* Lista de hitos 2026 */
+.lista-hitos-2026 {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista-hitos-2026 li {
+    color: #334155;
+    font-size: 15px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+    padding-left: 15px;
+    border-left: 2px solid #cbd5e1;
+}
+
+.lista-hitos-2026 li strong {
+    color: #0f172a;
+    font-weight: 700;
+}
+/* ==================== LÍNEA DE TIEMPO (HISTORIA) ==================== */
+.seccion-historia {
+    background-color: #f8fafc;
+    padding: 60px 6%;
+}
+.historia-encabezado {
+    text-align: center;
+    margin-bottom: 50px;
+}.etiqueta-secundaria {
+    display: inline-block;
+    color: #08b9d8;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.historia-encabezado h2 {
+    color: #0b2345; 
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.historia-encabezado p {
+    color: #64748b;
+    font-size: 15px;
+}
+/* Estructura de la línea */
+.linea-tiempo-contenedor {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 30px;
+    border-left: 3px solid #e2e8f0;
+}
+.item-tiempo {
+    position: relative;
+    margin-bottom: 40px;
+}
+.item-tiempo:last-child {
+    margin-bottom: 0;
+}
+/* Puntos de conexión */
+.punto-tiempo {
+    position: absolute;
+    left: -39px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0b2345;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 0 2px #e2e8f0;
+}
+.item-tiempo.actual .punto-tiempo {
+    background-color: #08b9d8;
+    box-shadow: 0 0 0 3px rgba(8, 185, 216, 0.3);
+}
+/* Contenido de cada año */
+.contenido-tiempo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    border: 1px solid #f1f5f9;
+}
+.anio-tiempo {
+    color: #1e40af;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.contenido-tiempo strong {
+    display: block;
+    color: #334155;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.contenido-tiempo p {
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+/* Resaltado del HITO 2024 */
+.badge-hito {
+    display: inline-block;
+    background-color: #fef08a;
+    color: #a16207;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+/* Destacado de la edición 2026 */
+.caja-destacada {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-left: 4px solid #08b9d8; 
+}
+/* ==================== ADAPTACIÓN MÓVIL EXACTA (HASTA 768px) ==================== */
+@media (max-width: 768px) {
+
+    .portada {
+        padding: 30px 16px;
+        min-height: auto; /* Permite que el contenedor crezca según el contenido */
+        height: auto;
+    }
+   
+
+    .portada-contenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .portada-izquierda {
+        max-width: 100%;
+    }
+
+    .portada h1 {
+        font-size: 28px; /* Título un poco más compacto */
+    }
+
+    .portada h2 {
+        font-size: 16px;
+    }
+
+    .portada-izquierda p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .botones {
+        justify-content: center;
+        width: 100%;
+        flex-direction: column; /* Apila un botón arriba del otro */
+        gap: 10px;
+    }
+
+    .boton {
+        width: 100%; /* Botones de ancho completo */
+        text-align: center;
+    }
+
+    /* TARJETAS DE FECHA Y SEDE */
+    .datos-eventos {
+        width: 100%;
+        flex-direction: column; /* Una debajo de la otra */
+        align-self: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .dato-card {
+        width: 100%;
+        min-width: 0; /* Elimina restricciones de ancho mínimo */
+        justify-content: center;
+        padding: 12px 15px;
+    }
+
+     .bloque-historia {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .icono-historia {
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+    }
+    .texto-historia h3 {
+        padding-top: 0;
+    }
+    .texto-historia p {
+        text-align: left;
+    }
+    /*linea de tiempo */
+    .linea-tiempo-contenedor {
+        padding-left: 20px;
+    }
+    .punto-tiempo {
+        left: -29px;
+    }
+}

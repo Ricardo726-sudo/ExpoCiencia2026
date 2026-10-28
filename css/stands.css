@@ -1,0 +1,568 @@
+/* ==================== PORTADA DE STANDS ==================== */
+.hero-portada {
+    width: 100%;
+    min-height: 280px; 
+    padding: 50px 6%;
+    display: flex;
+    align-items: center;
+    background-color: #0b2345;
+    background-image: 
+        linear-gradient(90deg,
+            rgba(11, 35, 69, 0.95) 0%,
+            rgba(11, 35, 69, 0.82) 45%,
+            rgba(11, 35, 69, 0.35) 80%
+        ),
+        url("../assets/img/portada/stands.png");
+      
+    background-position: right center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--blanco);
+}
+
+.hero-portada-contenido {
+    max-width: 440px;
+}
+
+.etiqueta-secunadaria {
+    display: inline-block;
+    color: var(--ciano);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.hero-portada h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: var(--blanco);
+}
+
+.hero-portada p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.5;
+}
+
+/* ==================== BUSCADOR Y FILTROS ==================== */
+.seccion-filtros {
+    width: 100%;
+    padding: 30px 6%;
+    background-color: var(--fondo);
+}
+
+.contenedor-filtros {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caja-buscador {
+    position: relative;
+    width: 100%;
+}
+
+.icono-buscar {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.caja-buscador input {
+    width: 100%;
+    padding: 12px 16px 12px 42px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background-color: var(--blanco);
+}
+
+.caja-buscador input:focus {
+    border-color: var(--ciano);
+    box-shadow: 0 0 0 3px rgba(8, 185, 216, 0.15);
+}
+
+.grupo-selects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grupo-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.grupo-filtro label {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--texto);
+}
+
+.grupo-filtro select {
+    padding: 10px 14px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: var(--blanco);
+    color: var(--texto);
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.grupo-filtro select:focus {
+    border-color: var(--ciano);
+}
+
+/* ==================== GRILLA Y TARJETAS DE STANDS ==================== */
+.seccion-stands {
+    width: 100%;
+    padding: 20px 6% 60px 6%;
+    background-color: var(--fondo);
+}
+
+.grilla-stands {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 25px;
+}
+
+.tarjeta-stand {
+    background-color: var(--blanco);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta-stand:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.stand-imagen {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background-color: #e2e8f0;
+}
+
+.stand-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stand-cuerpo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.stand-cuerpo h3 {
+    font-size: 18px;
+    color: var(--azul);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.badge-categoria {
+    align-self: flex-start;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.stand-cuerpo p {
+    font-size: 13.5px;
+    color: #64748b;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.stand-acciones {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-stand {
+    flex: 1.2;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.btn-qr {
+    flex: 0.8;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: var(--ciano);
+    border-color: var(--ciano);
+}
+
+.btn-qr:hover {
+    background-color: rgba(8, 185, 216, 0.1);
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 35, 69, 0.85); /* Fondo azul oscuro transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.modal-overlay.activo {
+    opacity: 1;
+    visibility: visible;
+}
+    /* Contenedor principal del modal */
+.modal-contenido {
+    background-color: var(--blanco);
+    width: 95%;
+    max-width: 950px;
+    max-height: 90vh; /* Evita que el modal sea más alto que la pantalla */
+    overflow-y: auto; /* Agrega scroll si el contenido es muy largo */
+    border-radius: 12px;
+    position: relative;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    transform: translateY(-30px);
+    transition: transform 0.3s ease;
+}
+.modal-overlay.activo .modal-contenido {
+    transform: translateY(0);
+}
+/* Botón de cerrar (X) */
+.btn-cerrar-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    color: #94a3b8;
+    cursor: pointer;
+    background: #f1f5f9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.btn-cerrar-modal:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+}
+.badge-area-amarillo {
+    display: inline-block;
+    background-color: #fef08a; /* Fondo amarillo claro */
+    color: #a16207; /* Texto mostaza oscuro */
+    font-size: 11px;
+    font-weight: 800;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.modal-titulo-principal {
+    color: #1e3a8a;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+.modal-cuerpo-grid {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr; /* Columna izquierda más ancha que la derecha */
+    gap: 40px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 25px;
+}
+.titulo-seccion {
+    color: #d97706; 
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* Quita el margen superior al primer título de cada columna */
+.col-izq .titulo-seccion:first-child,.col-der .titulo-seccion:first-child {
+    margin-top: 0;
+}
+
+/* --- Cajas de colores y textos (Columna Izquierda) --- */
+.caja-azul {
+    background-color: #eff6ff; /* Celeste muy claro */
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.caja-azul strong {
+    color: #1e40af; /* Azul oscuro */
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.caja-azul p {
+    color: #3b82f6; /* Azul brillante */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.objetivos-especificos strong {
+    color: #1e40af;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.objetivos-especificos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.objetivos-especificos li {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.icono-lista {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.texto-normal {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.caja-verde {
+    background-color: #f0fdf4; /* Verde muy claro */
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.caja-verde p {
+    color: #166534; /* Verde oscuro */
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* --- Columna Derecha (Integrantes y Galería) --- */
+.integrante-caja {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #334155;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.anexo-caja {
+    background-color: #1e3a8a;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 1px solid #1e3a8a;
+}
+
+.anexo-caja img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+}
+
+.anexo-titulo {
+    background-color: #0f172a;
+    color: var(--blanco);
+    font-size: 11px;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.qr-contenido {
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+.qr-titulo {
+    color: var(--azul);
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.qr-subtitulo {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.qr-caja-imagen {
+    display: inline-block;
+    padding: 15px;
+    background-color: var(--blanco);
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.qr-caja-imagen img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+/* ==================== PAGINACIÓN ==================== */
+.paginacion-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    grid-column: 1 / -1; /* Ocupa todo el ancho si está dentro de una grilla */
+}
+.btn-paginacion {
+    background-color: #0b2345;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, opacity 0.2s;
+}
+.btn-paginacion:hover:not(:disabled) {
+    background-color: #08b9d8;
+    color: #0b2345;
+}
+.btn-paginacion:disabled {
+    background-color: #cbd5e1;
+    color: #64748b;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.info-paginacion {
+    font-size: 14px;
+    font-weight: bold;
+    color: #334155;
+}
+/* ==================== ADAPTACIÓN MÓVIL (RESPONSIVE) ==================== */
+@media (max-width: 768px) {
+   
+    .hero-portada {
+        padding: 40px 5%;
+        text-align: center;
+        background-position: center;
+        background-image: 
+            linear-gradient(180deg, 
+                rgba(11, 35, 69, 0.95) 0%, 
+                rgba(11, 35, 69, 0.8) 100%
+            ),
+            url("../assets/img/portada/stands.png");
+    }
+
+    .hero-portada-contenido {
+        margin: 0 auto;
+    }
+
+    .hero-portada h1 {
+        font-size: 26px;
+    }
+
+    /* 2. Filtros y selectores en una sola columna */
+    .grupo-selects {
+        grid-template-columns: 1fr; 
+        gap: 15px;
+    }
+
+    /* 3. Grilla de stands a 1 sola columna en pantallas pequeñas */
+    .grilla-stands {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* 4. Modal principal de dos columnas se vuelve una sola columna vertical */
+    .modal-cuerpo-grid {
+        grid-template-columns: 1fr; 
+        gap: 25px;
+    }
+    
+    .modal-contenido {
+        width: 92%;
+        max-height: 85vh;
+        padding: 20px 15px;
+    }
+
+    .modal-titulo-principal {
+        font-size: 20px;
+    }
+
+    /* 5. Ajuste del modal QR para celulares */
+    .qr-contenido {
+        max-width: 90% !important;
+        padding: 20px !important;
+    }
+
+    .qr-caja-imagen img {
+        width: 170px;
+        height: 170px;
+    }
+}

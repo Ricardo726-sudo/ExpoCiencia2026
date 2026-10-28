@@ -1,0 +1,198 @@
+/* ==================== PORTADA ORGANIZADORES ==================== */
+.hero-portada-organizadores {
+    width: 100%;
+    min-height: 280px; 
+    padding: 50px 6%;
+    display: flex;
+    align-items: center;
+    background-color: #0b1f38;
+    background-image: 
+        linear-gradient(90deg, rgba(11, 31, 56, 0.95) 0%, rgba(11, 31, 56, 0.6) 100%),
+        url("../assets/img/portada/Organizdores.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.hero-portada-contenido {
+    max-width: 500px;
+    margin: 0;
+}
+
+.etiqueta-secundaria {
+    display: inline-block;
+    color: #08b9d8;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.hero-portada-organizadores h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.hero-portada-organizadores p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+/* ==================== SECCIONES DE EQUIPO ==================== */
+.seccion-equipo {
+    padding: 70px 6%;
+    background-color: #ffffff;
+}
+
+.seccion-desarrolladores {
+    background-color: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+}
+
+.cabecera-equipo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cabecera-equipo h2 {
+    color: #0b2345;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+.cabecera-equipo h2::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 30px;
+    background-color: #08b9d8;
+}
+
+.cabecera-equipo p {
+    color: #64748b;
+    font-size: 15px;
+}
+
+/* ==================== GRILLA Y TARJETAS NUEVAS ==================== */
+.grilla-organizadores {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center; 
+}
+
+.tarjeta-perfil {
+    width: 260px; 
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-perfil:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* FOTOS CIRCULARES */
+.perfil-imagen-circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 3px solid #f1f5f9;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.perfil-imagen-circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* TEXTOS CENTRADOS */
+.perfil-info-centrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.perfil-info-centrada h3 {
+    color: #0f172a;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.perfil-rol-texto {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.texto-naranja {
+    color: #08b9d8; 
+}
+
+.texto-azul {
+    color: #3b82f6; 
+}
+
+.perfil-info-centrada p {
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    flex: 1;
+}
+
+/* Icono abajo */
+.icono-inferior {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #08b9d8;
+}
+.perfil-carrera-texto {
+    font-size: 11.5px;
+    color: #64748b;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: block;
+}
+
+/* ==================== ADAPTACION MOVIL ==================== */
+@media (max-width: 768px) {
+    .hero-portada-organizadores {
+        padding: 40px 6%;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero-portada-contenido {
+        margin: 0 auto;
+    }
+    .grilla-organizadores {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

@@ -1,0 +1,267 @@
+[
+     {
+        "id": 1,
+        "titulo": "Chat gpt",
+        "categoria": "programacion-vi",
+        "categoriaNombre": "Programación VI",
+        "area": "ingenieria-informaticas",
+        "descripcion": "Prototipo de comunicación óptica que transmite señales de audio a través de un haz de luz láser, ideal para entornos con ruido magnético.",
+        "problema": "Interferencia electromagnética severa en entornos industriales que corta o distorsiona la transmisión de datos por radiofrecuencia convencional.",
+        "objetivoGeneral": "Diseñar e implementar un sistema de comunicación óptica inalámbrica (VLC) para la transmisión segura y nítida de audio.",
+        "objetivosEspecificos": [
+            "Modular una señal de audio analógica directamente en la alimentación de un diodo láser.",
+            "Construir un circuito receptor altamente sensible utilizando un fotodiodo y filtros de luz.",
+            "Evaluar la atenuación y calidad del sonido a distancias mayores a 50 metros."
+        ],
+        "desarrollo": "Se utilizó un modulador analógico para variar la intensidad de un láser de 5mW según la amplitud de la señal de audio. En la estación de recepción, un fotodiodo capta las variaciones de luz y un amplificador operacional LM386 recupera y amplifica el sonido para reproducirlo en un altavoz.",
+        "resultados": "Se logró una transmisión nítida de audio a una distancia de 50 metros en pasillos de la facultad, demostrando inmunidad total a las interferencias de redes Wi-Fi y motores eléctricos cercanos.",
+        "ubicacion": "Primer Piso - Laboratorio de Telecomunicaciones, Stand T1",
+        "enlaceRepo": "https://github.com/expo-uninorte/audio-laser",
+        "integrantes": [
+            "laura",
+            " Ruiz"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/robotica.jfif",
+                "titulo": "Ribotica"
+            },
+            {
+                "img": "../assets/img/stands/laser2.jpg",
+                "titulo": "Receptor óptico y etapa de amplificación"
+            }
+        ],
+        "imagen": "../assets/img/foto/instagram.jfif"
+    },
+   
+    {
+        "id": 2,
+        "titulo": "Sistema de Transmisión de Audio por Láser",
+        "categoria": "radiocomunicaciones-antenas",
+        "categoriaNombre": "Radiocomunicaciones",
+        "area": "ingenieria-telecomunicaciones",
+        "descripcion": "Prototipo de comunicación óptica que transmite señales de audio a través de un haz de luz láser, ideal para entornos con ruido magnético.",
+        "problema": "Interferencia electromagnética severa en entornos industriales que corta o distorsiona la transmisión de datos por radiofrecuencia convencional.",
+        "objetivoGeneral": "Diseñar e implementar un sistema de comunicación óptica inalámbrica (VLC) para la transmisión segura y nítida de audio.",
+        "objetivosEspecificos": [
+            "Modular una señal de audio analógica directamente en la alimentación de un diodo láser.",
+            "Construir un circuito receptor altamente sensible utilizando un fotodiodo y filtros de luz.",
+            "Evaluar la atenuación y calidad del sonido a distancias mayores a 50 metros."
+        ],
+        "desarrollo": "Se utilizó un modulador analógico para variar la intensidad de un láser de 5mW según la amplitud de la señal de audio. En la estación de recepción, un fotodiodo capta las variaciones de luz y un amplificador operacional LM386 recupera y amplifica el sonido para reproducirlo en un altavoz.",
+        "resultados": "Se logró una transmisión nítida de audio a una distancia de 50 metros en pasillos de la facultad, demostrando inmunidad total a las interferencias de redes Wi-Fi y motores eléctricos cercanos.",
+        "ubicacion": "Primer Piso - Laboratorio de Telecomunicaciones, Stand T1",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Laura Villalba",
+            "Esteban Ruiz"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/laser1.jpg",
+                "titulo": "Circuito emisor acoplado al láser"
+            },
+            {
+                "img": "../assets/img/stands/laser2.jpg",
+                "titulo": "Receptor óptico y etapa de amplificación"
+            }
+        ],
+        "imagen": "../assets/img/stands/foto-telecom.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Sistema de Transmisión de Audio por Láser",
+        "categoria": "radiocomunicaciones-antenas",
+        "categoriaNombre": "Radiocomunicaciones",
+        "area": "ingenieria-telecomunicaciones",
+        "descripcion": "Prototipo de comunicación óptica que transmite señales de audio a través de un haz de luz láser, ideal para entornos con ruido magnético.",
+        "problema": "Interferencia electromagnética severa en entornos industriales que corta o distorsiona la transmisión de datos por radiofrecuencia convencional.",
+        "objetivoGeneral": "Diseñar e implementar un sistema de comunicación óptica inalámbrica (VLC) para la transmisión segura y nítida de audio.",
+        "objetivosEspecificos": [
+            "Modular una señal de audio analógica directamente en la alimentación de un diodo láser.",
+            "Construir un circuito receptor altamente sensible utilizando un fotodiodo y filtros de luz.",
+            "Evaluar la atenuación y calidad del sonido a distancias mayores a 50 metros."
+        ],
+        "desarrollo": "Se utilizó un modulador analógico para variar la intensidad de un láser de 5mW según la amplitud de la señal de audio. En la estación de recepción, un fotodiodo capta las variaciones de luz y un amplificador operacional LM386 recupera y amplifica el sonido para reproducirlo en un altavoz.",
+        "resultados": "Se logró una transmisión nítida de audio a una distancia de 50 metros en pasillos de la facultad, demostrando inmunidad total a las interferencias de redes Wi-Fi y motores eléctricos cercanos.",
+        "ubicacion": "Primer Piso - Laboratorio de Telecomunicaciones, Stand T1",
+        "enlaceRepo": "https://github.com/expo-uninorte/audio-laser",
+        "integrantes": [
+            "Laura Villalba",
+            "Esteban Ruiz"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/laser1.jpg",
+                "titulo": "Circuito emisor acoplado al láser"
+            },
+            {
+                "img": "../assets/img/stands/laser2.jpg",
+                "titulo": "Receptor óptico y etapa de amplificación"
+            }
+        ],
+        "imagen": "../assets/img/stands/foto-telecom.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Gestor de Inventario con Arquitectura Multicapa",
+        "categoria": "programacion-iv",
+        "categoriaNombre": "Programación IV",
+        "area": "ingenieria-informatica",
+        "descripcion": "Sistema de escritorio multicapa para el control de stock, kardex automático y registro de ventas de una tienda de electrónica.",
+        "problema": "Descontrol en los registros manuales de tiendas minoristas de repuestos, lo que genera pérdidas de inventario por falta de trazabilidad.",
+        "objetivoGeneral": "Desarrollar una aplicación de escritorio robusta que automatice el control de inventario y gestione de forma segura las transacciones comerciales.",
+        "objetivosEspecificos": [
+            "Diseñar una base de datos relacional normalizada en SQL Server.",
+            "Implementar una arquitectura de software en 3 capas (Datos, Negocio, Presentación).",
+            "Generar reportes automáticos en PDF para auditorías de stock crítico."
+        ],
+        "desarrollo": "Desarrollo en C# utilizando Windows Forms. La conexión a la base de datos se maneja mediante ADO.NET y procedimientos almacenados para mayor seguridad. Se implementaron disparadores (triggers) en SQL Server para actualizar el kardex de manera automática tras cada venta concretada.",
+        "resultados": "El sistema reduce el tiempo de registro de ventas de 3 minutos a solo 15 segundos por cliente, y emite alertas instantáneas en pantalla sobre productos que están próximos a agotarse.",
+        "ubicacion": "Planta Baja - Pasillo Informática, Stand I5",
+        "enlaceRepo": "https://github.com/expo-uninorte/gestor-inventario-csharp",
+        "integrantes": [
+            "Micaela Rojas",
+            "Santiago Medina",
+            "Lucas Fernandez"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/csharp1.jpg",
+                "titulo": "Interfaz del panel de facturación"
+            },
+            {
+                "img": "../assets/img/stands/csharp2.jpg",
+                "titulo": "Diagrama relacional de la base de datos"
+            }
+        ],
+        "imagen": "../assets/img/stands/foto-software.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Controlador PID para Horno de Tratamiento Térmico",
+        "categoria": "electronica-ii",
+        "categoriaNombre": "Electrónica II",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Sistema de control electrónico que estabiliza y mantiene la temperatura exacta de un horno industrial para el temple de metales.",
+        "problema": "Fluctuaciones severas de temperatura en hornos convencionales que causan fragilidad y deformación en las piezas metálicas durante el tratamiento térmico.",
+        "objetivoGeneral": "Diseñar un controlador proporcional, integral y derivativo (PID) de precisión para estabilizar la temperatura interna de un horno resistivo.",
+        "objetivosEspecificos": [
+            "Modelar matemáticamente la curva de calentamiento y enfriamiento del horno.",
+            "Diseñar el circuito de potencia utilizando relés de estado sólido (SSR).",
+            "Ajustar las constantes PID mediante software para evitar sobreimpulsos térmicos."
+        ],
+        "desarrollo": "Se programó un microcontrolador para leer los datos de una termocupla industrial tipo K mediante un módulo amplificador MAX6675. El algoritmo PID integrado calcula continuamente el ciclo de trabajo (PWM) necesario, el cual se envía al SSR para regular la potencia entregada a las resistencias calefactoras sin utilizar contactores mecánicos.",
+        "resultados": "Se logró mantener una temperatura objetivo de 800°C con una variación máxima de apenas ±2°C a lo largo de 4 horas, mejorando notablemente la dureza del acero tratado en las pruebas de laboratorio.",
+        "ubicacion": "Patio Central - Zona Industrial, Stand E2",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Fernando Caceres",
+            "Diana Silva"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/horno1.jpg",
+                "titulo": "Placa de control y módulo PID"
+            },
+            {
+                "img": "../assets/img/stands/horno2.jpg",
+                "titulo": "Prueba de temperatura con acero"
+            }
+        ],
+        "imagen": "../assets/img/stands/foto-electronica.jpg"
+    },
+    
+    {
+        "id": 6,
+        "titulo": "Determinación de la Aceleración de la Gravedad",
+        "categoria": "fisica-ii",
+        "categoriaNombre": "Física II",
+        "area": "ingenieria-informatica",
+        "descripcion": "Estudio práctico y medición experimental de la gravedad local utilizando un péndulo simple con sensores ópticos de alta precisión.",
+        "problema": "Falta de datos experimentales precisos sobre la gravedad específica en las coordenadas del campus universitario.",
+        "objetivoGeneral": "Determinar con precisión la aceleración de la gravedad mediante la medición del período de oscilación de un péndulo.",
+        "objetivosEspecificos": [
+            "Implementar un sistema de conteo de oscilaciones mediante barrera infrarroja.",
+            "Variar la longitud del hilo del péndulo para obtener múltiples puntos de medición.",
+            "Realizar la regresión lineal en software estadístico para minimizar el error experimental."
+        ],
+        "desarrollo": "Se empleó una estructura metálica fija, un hilo inextensible y una esfera de acero. Un sensor óptico conectado a un microcontrolador registra exactamente el paso de la esfera, eliminando el error humano del cronómetro manual.",
+        "resultados": "Se obtuvo un valor de aceleración de 9.81 m/s² con un margen de error menor al 1% en comparación con la constante teórica regional.",
+        "ubicacion": "Planta Baja - Pasillo Central, Stand A3",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Juan Pérez",
+            "María Gómez"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/fisica1.jpg",
+                "titulo": "Montaje del péndulo con sensor"
+            }
+        ],
+        "imagen": "../assets/img/portada/stands.png"
+    },
+    {
+        "id": 7,
+        "titulo": "Robot Móvil Autónomo Evita-Obstáculos",
+        "categoria": "robotica",
+        "categoriaNombre": "Robótica",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Diseño de un vehículo robótico capaz de navegar de manera autónoma en laberintos utilizando sensores ultrasónicos y lógica de control difuso.",
+        "problema": "Dificultad de los robots móviles convencionales para sortear obstáculos dinámicos en entornos no estructurados.",
+        "objetivoGeneral": "Construir un robot móvil autónomo capaz de detectar y esquivar obstáculos en tiempo real.",
+        "objetivosEspecificos": [
+            "Integrar sensores de distancia ultrasónicos HC-SR04.",
+            "Programar la máquina de estados finitos en lenguaje C para la toma de decisiones.",
+            "Calibrar los motores de corriente continua mediante controladores PWM."
+        ],
+        "desarrollo": "El chasis fue impreso en 3D y equipado con una placa de desarrollo. Los datos de distancia se procesan cíclicamente para decidir giros a la izquierda o derecha según la proximidad de las paredes.",
+        "resultados": "El robot completó circuitos de prueba complejos con una tasa de éxito del 95% sin colisiones.",
+        "ubicacion": "Segundo Piso - Ala Tecnológica, Stand R1",
+        "enlaceRepo": "https://github.com/expo-uninorte/robot-autonomo",
+        "integrantes": [
+            "Carlos Benítez",
+            "Rodrigo Acosta"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/robot1.jpg",
+                "titulo": "Chasis y sensores montados"
+            }
+        ],
+        "imagen": "../assets/img/stands/foto-electronica.jpg"
+    },
+    {
+        "id":8 ,
+        "titulo": "Sistema de Riego Automatizado por IoT",
+        "categoria": "proyecto-independiente",
+        "categoriaNombre": "Proyecto Independiente",
+        "area": "ingenieria-telecomunicaciones",
+        "descripcion": "Plataforma conectada a internet que monitorea la humedad del suelo y acciona electroválvulas de riego de forma remota o automática.",
+        "problema": "Desperdicio hídrico en cultivos urbanos debido a la falta de riego oportuno y controlado.",
+        "objetivoGeneral": "Desarrollar un sistema de riego inteligente basado en el protocolo MQTT y sensores de humedad.",
+        "objetivosEspecificos": [
+            "Conectar sensores capacitivos de humedad a un módulo ESP8266.",
+            "Desarrollar un tablero web para visualización de datos en tiempo real.",
+            "Configurar alertas automáticas vía Telegram."
+        ],
+        "desarrollo": "Se programó el microcontrolador para enviar lecturas cada 30 minutos a un broker MQTT en la nube. Si la humedad baja del umbral establecido, se activa una bomba de 12V mediante un relé.",
+        "resultados": "Optimización del uso de agua en un 40% durante las pruebas piloto de dos semanas.",
+        "ubicacion": "Primer Piso - Hall Central, Stand P8",
+        "enlaceRepo": "https://github.com/expo-uninorte/riego-iot",
+        "integrantes": [
+            "Ana Martinez",
+            "Patricia Duarte"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/img/stands/riego1.jpg",
+                "titulo": "Prototipo en placa de pruebas"
+            }
+        ],
+        "imagen": "../assets/img/stands/foto-telecom.jpg"
+    }
+  
+ 
+]

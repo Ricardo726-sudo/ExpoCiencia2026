@@ -1,0 +1,38 @@
+[
+     {
+        "id": 1,
+        "nombre": "Edgar de Jesús Sandoval Arboleda",
+        "especialidad": "Educación Virtual y Sistemas",
+        "institucion": "Unidad Central del Valle del Cauca (UCEVA), Colombia",
+        "rol": "Ingeniero de Sistemas y Magíster",
+        "perfilProfesional": "Experto en formación académica, diseño de cursos virtuales, procesos de acreditación de alta calidad, internacionalización curricular y transformación digital.",
+        "imagen": "../assets/vip/edgar.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Dra. Sandra Lucía Aguirre Franco",
+        "especialidad": "Gestión Empresarial y Administración",
+        "institucion": "Unidad Central del Valle del Cauca (UCEVA), Colombia",
+        "rol": "Magíster, Doctora y Exdecana",
+        "perfilProfesional": "Docente con 30 años de trayectoria en áreas administrativas y gerenciales. Exdirectora de programa y exdecana de facultad, investigadora en temas organizacionales y directora de trabajos de grado en gestión empresarial.",
+        "imagen": "../assets/vip/Sandra Lucía.png"
+   },
+   {
+        "id": 3,
+        "nombre": "José Aldemar Loaiza Naranjo",
+        "especialidad": "Gerencia Informática y Proyectos",
+        "institucion": "ESAP",
+        "rol": "Administrador y Magíster en IA",
+        "perfilProfesional": "Docente durante 16 años en la ESAP con experiencia en control de inventarios, costos ABC, formulación y evaluación de proyectos, auditoría en sistemas de información y analítica de datos.",
+        "imagen": "../assets/vip/jose.png"
+   },
+   {
+        "id": 4,
+        "nombre": "Juan Carlos Ravé Ramírez",
+        "especialidad": "Sistemas Integrados de Gestión y Gerencia de Proyectos",
+        "institucion": "Rave Consultoría / UCEVA",
+        "rol": "Ingeniero Industrial y Magíster",
+        "perfilProfesional": "Candidato a Doctor en Administración de Empresas, con amplia trayectoria como consultor, asesor y capacitador en sistemas de gestión para empresas públicas y privadas. Docente universitario en diversas instituciones y auditor de tercera parte.",
+        "imagen": "../assets/vip/juan.png"
+    }
+]

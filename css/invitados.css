@@ -1,0 +1,171 @@
+/* ==================== PORTADA INVITADOS VIP ==================== */
+.hero-portada-invitados {
+    width: 100%;
+    min-height: 320px;
+    padding: 60px 6%;
+    display: flex;
+    align-items: center;
+    background-color: #0b1f38;
+    background-image: 
+        linear-gradient(90deg, rgba(11, 31, 56, 0.96) 0%, rgba(11, 31, 56, 0.75) 50%, rgba(11, 31, 56, 0.3) 100%),
+        url("../assets/img/portada/microfono.png"); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.hero-portada-contenido {
+    max-width: 580px;
+}
+
+.etiqueta-secundaria {
+    display: inline-block;
+    color: #08b9d8;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-portada-invitados h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.hero-portada-invitados p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ==================== SECCIÓN Y GRILLA DE INVITADOS ==================== */
+.seccion-invitados {
+    width: 100%;
+    padding: 60px 6%;
+    background-color: #f8fafc;
+}
+
+.grilla-invitados {
+   max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* ==================== TARJETA ESTILO REFERENCIA ==================== */
+.tarjeta-invitado {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+    gap: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta-invitado:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.invitado-imagen {
+   flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 3px solid #f1f5f9;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invitado-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.invitado-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.invitado-info h3 {
+    color: #0f172a;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.rol-destacado {
+    color: #475569;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.descripcion {
+    color: #64748b;
+    font-size: 12.5px;
+    line-height: 1.45;
+    margin-bottom: 15px;
+}
+
+.badge-especialidad {
+    align-self: flex-start;
+    background-color: #f0f9ff;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ================== Adaptación Móvil =================== */
+@media (max-width: 1024px) {
+    .grilla-invitados {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .grilla-invitados {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+    }
+    
+    .tarjeta-invitado {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .invitado-info {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .badge-especialidad {
+        align-self: center;
+    }
+}

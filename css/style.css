@@ -1,0 +1,287 @@
+/* ==================== 1. VARIABLES Y CONFIGURACIÓN GENERAL ==================== */
+:root {
+    --azul: #0b2345;
+    --azul-claro: #163b67;
+    --ciano: #08b9d8;
+    --blanco: #ffffff;
+    --red: #ff0000;
+    --fondo: #f2f7fc;
+    --texto: #243650;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--fondo);
+    color: var(--texto);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1; /* Ocupa todo el espacio disponible verticalmente */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==================== 2. COMPONENTES REUTILIZABLES (BOTONES) ==================== */
+.boton {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+    cursor: pointer;
+}
+
+.boton-principal {
+    background-color: var(--ciano);
+    color: var(--azul);
+}
+
+.boton-principal:hover {
+    background-color: #38d3ef;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(8, 185, 216, 0.4);
+}
+
+.boton-secundario {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--blanco);
+    border: 1.5px solid var(--blanco);
+}
+
+.boton-secundario:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* ==================== 3. CABECERA (NAVBAR) ==================== */
+.encabezado {
+    min-height: 80px;
+    padding: 16px 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: var(--azul);
+    border-bottom: 3px solid var(--ciano);
+}
+
+.logo {
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.logo strong {
+    color: var(--ciano);
+}
+
+.logo-imagen {
+    width: 180px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: var(--blanco);
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.menu a:hover, 
+.menu a.activo {
+    color: var(--ciano);
+}
+
+/* ==================== 4. PIE DE PÁGINA (FOOTER) ==================== */
+.pie-pagina {
+    background-color: #07172e;
+    color: var(--blanco);
+    padding: 18px 6% 12px 6%;
+    border-top: 3px solid var(--ciano);
+}
+
+.footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-logo-uninorte {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-centro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.footer-centro strong {
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    color: var(--blanco);
+}
+
+.subtitulo-facultad {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin-bottom: 6px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+}
+
+.footer-menu a {
+    color: #cbd5e1;
+    font-size: 0.8rem;
+}
+
+.footer-menu a:hover {
+    color: var(--ciano);
+}
+
+.footer-menu .separador {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 0.75rem;
+}
+
+.footer-contacto-mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+    color: #cbd5e1;
+}
+
+.footer-contacto-mini a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-contacto-mini a:hover {
+    color: var(--ciano);
+}
+
+.footer-contacto-mini .separador {
+    color: #ffd700;
+}
+
+.footer-redes-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ig-uninorte {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.footer-redes-col a:hover .ig-uninorte {
+    transform: scale(1.15);
+}
+
+.footer-copy {
+    text-align: center;
+    padding-top: 8px;
+    color: #64748b;
+    font-size: 0.75rem;
+}
+
+
+/* ==================== HEADER Y FOOTER EN MÓVILES ==================== */
+@media (max-width: 768px) {
+
+    /* Navbar centrado */
+    .encabezado {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 4%;
+        text-align: center;
+    }
+
+    .menu {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+   
+    .footer-contenido {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-logo-col, 
+    .footer-redes-col {
+        justify-content: center;
+    }
+
+    .footer-contacto-mini {
+        flex-direction: column; 
+        gap: 6px;
+    }
+
+    .footer-contacto-mini .separador {
+        display: none; 
+    }
+}

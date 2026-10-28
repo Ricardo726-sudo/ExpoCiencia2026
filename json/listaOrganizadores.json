@@ -1,0 +1,54 @@
+{
+    "coordinadores": [
+       {
+            "id": 1,
+            "nombre": " Ingeniera Magister En Ciencias. Veronica Rojas Scheffer",
+            "rol": " Decana de la Facultad de Ingenieria  ",
+            "carrera": "Facultad de Ingeniería (General) ",
+            "descripcion": " Directiva institucional y docente investigadora. Lidera la gestión académica, la articulación de convenios estratégicos y el desarrollo científico tecnológico de la Facultad de Ingeniería.",
+            "imagen": "../assets/organizadores/decana.jpeg"
+        },
+        {
+            "id": 2,
+            "nombre": "Prof. Ing. Karina Obregón",
+            "rol": " Directora de Carrera",
+            "carrera": " Ingeniería en Informática",
+            "descripcion": " Coordinadora académica del plan de estudios de Ingeniería en Informática,encargada del seguimiento curricular, proyectos de innovación estudiantil y acreditación académica de la carrera.",
+            "imagen": "../assets/organizadores/Directora karina.jpeg"
+        },
+        {
+              "id": 3,
+            "nombre": "Luis Galeano ",
+            "rol": " Coordinador General",
+            "carrera": "Ingeniería en Electromecanica",
+            "descripcion": "Encargado de la infraestructura del recinto, suministro eléctrico para los stands y recepción de evaluadores.",
+            "imagen": "../assets/organizadores/Luis Galeanojpeg.jpeg"
+        }
+    ],
+    "desarrolladores": [
+        {
+            "id": 1,
+            "nombre": "Ricardo Cuevas",
+            "rol": "Frontend Developer",
+            "carrera": "Ingeniería Informática",
+            "descripcion": "Desarrollo de la interfaz de usuario (UI), maquetación en HTML/CSS, integración del sistema de filtros y generación de QR.",
+            "imagen": "../assets//organizadores/RIcardo.jpeg"
+        },
+         {
+            "id": 2,
+            "nombre": "Enrique Meyer",
+            "rol": " Backend & DevOps Engineer",
+            "carrera": "Ingeniería Informática",
+            "descripcion": "Gestión del servidor, configuración del entorno de producción y despliegue del sitio web oficial en línea.",
+            "imagen": "../assets/organizadores/Enrique.jpeg"
+        },
+       {
+            "id": 3,
+            "nombre": "Elias Sugasti",
+            "rol": " Organización e Historia",
+            "carrera": "Ingeniería Informática",
+            "descripcion": "Recopilación de la historia de la ExpoCiencia, documentación sobre las autoridades de la facultad y coordinación de los líderes de la actividad.",
+            "imagen": "../assets/organizadores/eliasDesarrollo.jpeg"
+        }
+    ]
+}
