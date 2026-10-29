@@ -243,3 +243,19 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("select-area")?.addEventListener("change", aplicarFiltros);
     document.getElementById("select-orden")?.addEventListener("change", aplicarFiltros);
 });
+// ==================== 6. AUTO-ABRIR MODAL DESDE QR ====================
+window.addEventListener("DOMContentLoaded", () => {
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const idProyectoQR = urlParams.get('id');
+
+    if (idProyectoQR) {
+        
+        const verificarDatos = setInterval(() => {
+            if (proyectosStands.length > 0) {
+                clearInterval(verificarDatos);
+                verProyecto(parseInt(idProyectoQR));
+            }
+        }, 100);
+    }
+});
