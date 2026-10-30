@@ -1,6 +1,6 @@
 async function cargarOrganizadores() {
     try{
-        const respuesta = await fetch('../json/listaOrganizadores.json');
+        const respuesta = await fetch('../json/listaOrganizadores.json?v=2');
         if (!respuesta.ok) throw new Error("Error al leer el archivo JSON de organizadores");
         const datos = await respuesta.json();
         // Renderizar ambas listas en sus respectivos contenedores
