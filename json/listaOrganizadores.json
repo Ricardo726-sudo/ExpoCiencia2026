@@ -1,4 +1,19 @@
 {
+    "autoridades": [
+
+
+        {
+            "id": 1,
+            "nombre": "Director Ing. Bladomiro Brítez",
+            "rol": "Director e Ingeniero de la Carrera de Ingenieria Electromecanica",
+            "carrera": "Facultad de Ingeniería Electromecanica",
+            "descripcion": "Creador de la ExpoCiencia de la Facultad de Ingeniería.",
+            "imagen": "../assets/organizadores/directorfundador.jpeg"
+        }
+
+    ],
+
+
     "coordinadores": [
        {
             "id": 1,
@@ -16,14 +31,41 @@
             "descripcion": " Coordinadora académica del plan de estudios de Ingeniería en Informática,encargada del seguimiento curricular, proyectos de innovación estudiantil y acreditación académica de la carrera.",
             "imagen": "../assets/organizadores/Directora karina.jpeg"
         },
+
         {
-              "id": 3,
+            "id": 3,
+            "nombre": "Director Ing. Bladomiro Brítez",
+            "rol": "Director e Ingeniero de la Carrera de Ingenieria Electromecanica",
+            "carrera": "Facultad de Ingeniería Electromecanica",
+            "descripcion": "Creador de la ExpoCiencia de la Facultad de Ingeniería.",
+            "imagen": "../assets/organizadores/directorfundador.jpeg"
+        },
+        {
+            "id": 4,
             "nombre": "Luis Galeano ",
             "rol": " Coordinador General",
             "carrera": "Ingeniería en Electromecanica",
-            "descripcion": "Encargado de la infraestructura del recinto, suministro eléctrico para los stands y recepción de evaluadores.",
+            "descripcion": "Encargado de la infraestructura del recinto, logística para los stands y recepción de evaluadores.",
             "imagen": "../assets/organizadores/Luis Galeanojpeg.jpeg"
+        },
+        {
+            "id": 5,
+            "nombre": "Prof. M. Sc. Eduardo Ortigoza",
+            "rol": " DTC de Investigación",
+            "carrera": "Facultad de Ingeniería (General) ",
+            "descripcion": "Coordizacion de Evento.",
+            "imagen": "../assets/organizadores/edu.jpeg"
+        },
+        {
+            "id": 6,
+            "nombre": "Prof. Gustavo Quiñonez",
+            "rol": "DTC de Extensión",
+            "carrera": "Facultad de Ingeniería (General) ",
+            "descripcion": "Coordizacion de Evento.",
+            "imagen": "../assets/organizadores/gustavo.jpeg"
+
         }
+
     ],
     "desarrolladores": [
         {

@@ -77,7 +77,7 @@
         "categoria": "electricidad-magnetismo",
         "categoriaNombre": "Electricidad y magnetismo",
         "area": "ingenieria-electromecanica",
-        "descripcion": "Esta Memoria Técnica de Ingeniería documenta el diseño, dimensionamiento y construcción a escala de una Planta Metalúrgica Automatizada e Integrada. El sistema simula el comportamiento de un complejo industrial mediante la integración de subsistemas electrónicos, eléctricos y mecánicos. El prototipo incluye la infraestructura física de la nave industrial y sus áreas operativas (hornos, carga/descarga, servicios y estacionamiento), junto con funciones de control centralizado, iluminación fotosensible, gestión térmica, automatización de portones y cintas, sensado de reservorios y un sistema UPS protegido por un tablero de seguridad. El desarrollo fue realizado de forma modular por ocho equipos de trabajo y consolida la fundamentación teórica, memorias de cálculo, diagramas de circuitos simulados y mediciones reales de consumo energético.",
+        "descripcion": "Se presentará un prototipo de baldosas piezoeléctricas que transforman la energía mecánica, generada por la presión, en energía eléctrica. El público podrá presionar las baldosas y observar cómo la energía generada puede encender una luz LED.",
         "problema": "Al caminar, las personas generan energía mecánica que habitualmente se desperdicia en el entorno. Frente a esto, surge la necesidad de investigar e implementar tecnologías sustentables que permitan recuperar esa energía mediante la construcción de baldosas piezoeléctricas capaces de transformar la presión de las pisadas en energía eléctrica.",
         "objetivoGeneral": "Diseñar y evaluar un prototipo a pequeña escala de baldosa piezoelectrica para transformar la energia mecanica de las pisadas en energia electrica y almacenar su carga.",
         "objetivosEspecificos": [
@@ -566,7 +566,8 @@
             "Fatima Maldonado ",
             "Derlis Benitez", 
             "Mariela Nuñez",
-            "Rebeca Vera"
+            "Rebeca Vera",
+            "Elias Aron Baez Maidana"
         ],
         "anexos": [
             {

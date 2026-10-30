@@ -4,6 +4,7 @@ async function cargarOrganizadores() {
         if (!respuesta.ok) throw new Error("Error al leer el archivo JSON de organizadores");
         const datos = await respuesta.json();
         // Renderizar ambas listas en sus respectivos contenedores
+        renderizarTarjetas(datos.autoridades, "contenedor-autoridades", "texto-naranja");
         renderizarTarjetas(datos.coordinadores, "contenedor-coordinadores", "texto-naranja");
         renderizarTarjetas(datos.desarrolladores, "contenedor-desarrolladores", "texto-azul");
     }catch(error){

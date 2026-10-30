@@ -1,0 +1,216 @@
+/* ==================== PORTADA INDEPENDIENTE DE AGRADECIMIENTO ==================== */
+.hero-portada-agradecimiento-propia {
+    width: 100%;
+    min-height: 240px;
+    padding: 45px 6%;
+    display: flex;
+    align-items: center;
+    background-color: #0b2345;
+    background-image: linear-gradient(135deg, #0b2345 0%, #163b67 100%);
+    color: #ffffff;
+    justify-content: flex-start;
+    text-align: left;
+    border-bottom: 3px solid #08b9d8;
+}
+
+.hero-contenido-propio {
+    max-width: 650px;
+    margin: 0;
+}
+
+.etiqueta-agradecimiento-propia {
+    display: inline-block;
+    color: #08b9d8;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.hero-portada-agradecimiento-propia h1 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hero-portada-agradecimiento-propia p {
+    font-size: 15px;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+/* ==================== SECCIÓN DE CONTENIDO Y CABECERA ==================== */
+.seccion-equipo,
+.seccion-agradecimientos {
+    padding: 60px 6% 80px 6%;
+    background-color: #f8fafc;
+}
+
+.cabecera-equipo,
+.cabecera-agradecimientos {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cabecera-equipo h2,
+.cabecera-agradecimientos h2 {
+    color: #0b2345;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.cabecera-equipo h2::before,
+.cabecera-agradecimientos h2::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 28px;
+    background-color: #08b9d8;
+    border-radius: 2px;
+}
+
+.cabecera-equipo p,
+.cabecera-agradecimientos p {
+    color: #64748b;
+    font-size: 15px;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ==================== CONTENEDOR DE TARJETAS ==================== */
+.contenedor-agradecimientos {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tarjeta-agradecimiento {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tarjeta-agradecimiento:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+/* ==================== TARJETA DESTACADA DEL FUNDADOR ==================== */
+.tarjeta-fundador-destacada {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+    border: 1.5px solid #bae6fd;
+    border-left: 6px solid #08b9d8;
+}
+
+.fundador-foto-contenedor {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #08b9d8;
+    box-shadow: 0 4px 14px rgba(8, 185, 216, 0.25);
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.fundador-foto-contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.fundador-info {
+    flex: 1;
+    min-width: 260px;
+}
+
+.etiqueta-fundador {
+    color: #08b9d8;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* ==================== TIPOGRAFÍAS DE TARJETAS ==================== */
+.titulo-agradecimiento-univ {
+    color: #0b2345;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.titulo-agradecimiento-fundador {
+    color: #0284c7;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.titulo-agradecimiento-comite {
+    color: #0b2345;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.titulo-agradecimiento-estudiantes {
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.texto-agradecimiento {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ==================== ADAPTACIÓN MÓVIL ==================== */
+@media (max-width: 768px) {
+    .hero-portada-agradecimiento-propia {
+        padding: 35px 6%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero-contenido-propio {
+        margin: 0 auto;
+    }
+
+    .cabecera-equipo h2,
+    .cabecera-agradecimientos h2 {
+        font-size: 24px;
+    }
+
+    .tarjeta-fundador-destacada {
+        flex-direction: column;
+        text-align: center;
+        gap: 18px;
+    }
+
+    .tarjeta-agradecimiento {
+        padding: 24px 20px;
+    }
+}
