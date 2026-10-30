@@ -106,6 +106,64 @@
         ],
         "imagen": "../assets/stands/04/anexo.jpeg"
     },
+      {
+        "id": 7,
+        "titulo": "Globaliza-T",
+        "categoria": "proyecto-independiente",
+        "categoriaNombre": "Proyecto Independiente",
+        "area": "ingenieria-informatica",
+        "descripcion": "GlobalizaT es una plataforma académica de comercio electrónico desarrollada por estudiantes de la Universidad del Norte (UniNorte) para la exhibición y comercialización de productos paraguayos. El sistema integra una interfaz web responsiva (con soporte para modelos 3D y modo oscuro), una API HTTP propia construida en Node.js y un sistema de persistencia relacional en PostgreSQL.",
+        "problema": "La necesidad de desarrollar una solución de comercio electrónico full-stack en el ámbito universitario que permita gestionar de forma unificada catálogos, carritos de compras, perfiles de usuario y paneles de administración, resolviendo además el desafío de ofrecer tanto un entorno local conectado a base de datos como una demostración pública estática en la web.",
+        "objetivoGeneral": "Diseñar e implementar una plataforma web modular, funcional y escalable para la promoción y gestión comercial de productos paraguayos mediante una arquitectura cliente-servidor integrada.",
+        "objetivosEspecificos": [
+            "Construir una interfaz interactiva en HTML5, CSS3 y JavaScript puro (sin frameworks), con visor 3D (Three.js) y soporte de modo oscuro según preferencias del sistema.", 
+            "Programar una API HTTP en Node.js utilizando un enrutador propio y la biblioteca pg para la comunicación directa con la base de datos.", 
+            "Estructurar el modelo relacional en PostgreSQL mediante scripts de creación de esquemas y carga inicial de datos (seed).",
+            "Definir flujos de trabajo y niveles de acceso diferenciados para clientes y administradores.",
+            "Desarrollar una suite de pruebas automatizadas (unitarias con node:test y E2E con Playwright) e implementar un Modo Demostración en cliente para su publicación en GitHub Pages."
+        ],
+        "desarrollo": "El proyecto se estructuró dividiendo el sistema en un frontend desacoplado desarrollado con HTML5, CSS3 y JavaScript puro (sin frameworks), un visor 3D interactivo implementado con Three.js y un backend ligero construido en Node.js con un enrutador propio y comunicación a PostgreSQL mediante la biblioteca pg. Para garantizar la operatividad en distintos entornos, se crearon scripts de automatización de base de datos y arranque unificado, un modo demostración basado en almacenamiento local para su despliegue estático y una suite de pruebas unitarias y de integración end-to-end con node:test y Playwright.",
+        "resultados": "Se obtuvo una plataforma de comercio electrónico totalmente funcional que opera tanto en un entorno local full-stack conectado a PostgreSQL —con autenticación y perfiles de prueba— como en una demostración pública alojada en GitHub Pages. El sistema final incluye un catálogo con 11 modelos 3D interactivos, gestión de carrito y compras, soporte para modo oscuro adaptable al sistema operativo y una suite completa de pruebas automatizadas con su correspondiente documentación técnica.",
+        "ubicacion": "Subsuelo - Stand 8",
+        "enlaceRepo": "https://github.com/PabloDarkyy/uninorte-ecommerce-platform/tree/main",
+        "integrantes": [
+            "Pablo Bernal",
+            "Daniel Torales",
+            "Diego Haas",
+            "Sigrid Troxler",
+            "Gonzalo Cáceres",
+            "Diana Fernández",
+            "Dilarin Delgado",
+            "Pablo Benítez",
+            "José González",
+            "Gabriela Cañiza",
+            "Isaías Samaniego",
+            "Sebastian Da Silva",
+            "Santiago García",
+            "Micaela Martínez",
+            "Abel Becker",
+            "Pablo Britez",
+            "Dahiana Cardozo",
+            "Lucas Báez",
+            "Verónica Jasinski",
+            "Alejandro Báez",
+            "Blas Acosta",
+            "Pamela Espinola",
+            "Paloma Miranda",
+            "Miguel Benítez"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/07/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/07/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/07/portada.jpeg"
+    },
 
       {
         "id": 9,
@@ -140,6 +198,54 @@
             }
         ],
         "imagen": "../assets/stands/09/anexo.jpeg"
+    },
+      {
+        "id": 11,
+        "titulo": "Electricidad del automóvil ",
+        "categoria": "electronica-ii",
+        "categoriaNombre": "Electrónica II",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Es un prototipo que muestra todas las partes eléctricas que tiene un vehículo convencional",
+        "problema": "La necesidad de gestionar eficientemente el monitoreo de variables críticas en el automóvil y asegurar una respuesta rápida y segura en los sistemas eléctricos frente a fallas, sobrecorrientes y variaciones de tensión, empleando circuitos de lógica fija y elementos de protección adecuados.",
+        "objetivoGeneral": "Diseñar e implementar un módulo de control electrónico (ECU) basado en lógica discreta y compuertas lógicas para gestionar variables de entrada y automatizar actuadores y testigos en sistemas eléctricos automotrices.",
+        "objetivosEspecificos": [
+            "Simular y monitorear variables críticas del vehículo como temperatura, presión de aceite, nivel de combustible, proximidad, estado de la batería, puertas, cinturón de seguridad y airbag.",
+            "Integrar sistemas de alimentación de 12V y 5V, protecciones eléctricas (fusibles, relés y puesta a tierra) y un banco de control de arranque para un motor de combustión de 125 cc.",
+            ""
+        ],
+        "desarrollo": "Se desarrolló un prototipo físico de banco de pruebas y un manual de operaciones que integra una unidad central de procesamiento (Cerebro) basada en circuitos integrados lógicos y comparadores (como el 74HC08 y el LM358). Este sistema se conectó a diversos sensores simulados, etapas de potencia con relés, fusibles de protección, un cuadro de alarmas y un sistema de control de encendido y arranque para un motor de 125 cc.",
+        "resultados": "Se consolidó una documentación técnica y un prototipo funcional de laboratorio que valida el comportamiento operativo del sistema mediante un cuadro de alarmas y una tabla de verdad completa, demostrando la correcta interacción entre la adquisición de señales de los sensores, el procesamiento lógico y la respuesta de los actuadores y testigos lumínicos del tablero.",
+        "ubicacion": "Subsuelo - Stand 11",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Tobias Marecos",
+            "Enzo Morales",
+            "Marcos Osorio",
+            "Tsuyoshi Sasaki",
+            "Alan Vecca",
+            "Pedro Villalba",
+            "Samuel Aquino",
+            "Gabriel Acosta",
+            "Jorge Santacruz",
+            "Francisco Benitez",
+            "Diego Bento",
+            "Maddox Espinola", 
+            "Sandra Forcado",
+            "Hugo Gomez",
+            "Carlos González",
+            "Jose Ibarra"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/11/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/11/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/11/portada.jpeg"
     },
         {
         "id": 15,
@@ -287,6 +393,38 @@
             }
         ],
         "imagen": "../assets/stands/26/portada.jpeg"
+    },
+
+    {
+        "id": 29,
+        "titulo": "Proyecto de Levitación y Electromagnetismo Experimental",
+        "categoria": "electricidad-magnetismo",
+        "categoriaNombre": "Electricidad y magnetismo",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "El proyecto consiste en la construcción de un modelo de tren de levitación magnética que utiliza corriente eléctrica, alambres de cobre e imanes para demostrar cómo el magnetismo puede utilizarse para generar movimiento. Su funcionamiento se basa en el campo magnético producido por la corriente eléctrica que circula por los alambres, el cual interactúa con los imanes colocados en el modelo. Mediante la disposición adecuada de estos componentes, se busca generar fuerzas magnéticas que permitan impulsar y, según el diseño, reducir el contacto entre el tren y la vía. El prototipo permitirá observar de manera práctica los principios del electromagnetismo y comprender cómo se aplican en los trenes de levitación magnética. Además, el proyecto permitirá explorar posibles aplicaciones futuras de esta tecnología, como sistemas de transporte más eficientes e incluso conceptos de elevadores magnéticos, que requerirían diseños y mecanismos de seguridad adicionales.",
+        "problema": "La necesidad de evaluar y comparar de forma práctica cómo influye la configuración de los circuitos eléctricos (en serie y en paralelo) en la generación de campos magnéticos y corrientes para aplicaciones de levitación e inducción electromagnética.",
+        "objetivoGeneral": "Diseñar, ensamblar y comparar experimentalmente dos circuitos electromagnéticos (configurados en serie y en paralelo) integrados por bobinas de cobre, imanes permanentes y baterías de litio, evaluando su capacidad para generar campos magnéticos de intensidad adecuada para aplicaciones de levitación y tracción magnética.",
+        "objetivosEspecificos": [
+            "Identificar y caracterizar los componentes físicos del prototipo: fuentes de alimentación, interruptores, bobinas de cobre e imanes de ferrita.",
+            "Analizar la distribución de corriente, voltaje y resistencia eléctrica en las configuraciones de circuito en serie y en paralelo.",
+            "Aplicar y verificar experimentalmente las leyes fundamentales del electromagnetismo (Ohm, Ampere, Bio-Savart, Faraday y Lenz).",
+            "Determinar la configuración eléctrica más eficiente para la generación de la fuerza electromagnética requerida en sistemas de levitación."
+        ],
+        "desarrollo": "Se diseñó y ensambló un prototipo experimental sobre una base de soporte de madera con dos sistemas independientes. Cada circuito se integró con baterías de ion-litio 18650, interruptores de control, bobinas de cobre esmaltado y núcleos formados por imanes permanentes de ferrita para verificar leyes del electromagnetismo.",
+        "resultados": "Se demostró que el circuito en paralelo reduce la resistencia global, permitiendo una mayor corriente y un campo magnético más intenso, lo cual genera la fuerza de repulsión necesaria para la levitación. Se determinó que el circuito en serie distribuye la tensión y ofrece una corriente moderada con un campo magnético menor, destacando por su mayor estabilidad térmica y menor consumo energético.",
+        "ubicacion": "Subsuelo - Stand 29",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Tobías Coronel",
+            "Wilder Centurión",
+            "Franco Ruffinelli",
+            "Armando Fernández",
+            "Luis Ledesma"
+        ],
+        "anexos": [
+            
+        ],
+        "imagen": "../assets/stands/29/anexo.png"
     },
 
     {
@@ -542,6 +680,80 @@
         ],
         "imagen": "../assets/stands/44/portada.jpeg"
     },
+
+    {
+        "id": 45,
+        "titulo": "UniNorte extensiones",
+        "categoria": "programacion-vi",
+        "categoriaNombre": "Programación VI",
+        "area": "ingenieria-informatica",
+        "descripcion": "Aplicación para la gestión y control de las extensiones universitarias.",
+        "problema": "La necesidad de gestionar y validar de forma fiable el cumplimiento de las horas de extensión universitaria exigidas a los estudiantes de la Universidad del Norte, asegurando la asistencia real y completa (tanto de entrada como de salida) a los eventos, previniendo el uso de códigos QR estáticos o fraudulentos, y permitiendo una auditoría transparente junto con la correcta emisión de certificados.",
+        "objetivoGeneral": "Desarrollar una aplicación que gestione de punta a punta las horas de extensión, desde la creación del evento hasta el certificado.",
+        "objetivosEspecificos": [
+            "Registrar entrada y salida con códigos que no puedan reutilizarse fuera del evento.", 
+            "Calcular las horas automáticamente y emitir un certificado PDF por evento.", 
+            "Separar los permisos de alumno, validador, administrador y superadministrador.",
+            "Auditar cada cambio con su autor, fecha y motivo."
+        ],
+        "desarrollo": "Se llevó a cabo un desarrollo incremental estructurado en 8 fases utilizando una arquitectura tecnológica compuesta por Flutter para la aplicación web y móvil (empleando Riverpod y GoRouter) y Supabase para el backend (con autenticación, base de datos PostgreSQL configurada con políticas RLS y funciones RPC, Edge Functions y pg_cron para el cierre automático de eventos). El sistema incorporó un mecanismo de asistencia seguro mediante códigos QR dinámicos que cambian cada 60 segundos —firmados mediante HMAC-SHA256—, un PIN de respaldo temporal, cálculo automático de horas y generación de certificados PDF directamente en el dispositivo del usuario.",
+        "resultados": "Se implementaron con éxito las 8 fases y la aplicación se publicó en Cloudflare Pages, validando mediante pruebas funcionales el ciclo completo del sistema (creación de eventos, inscripción, control de asistencia, cierre automático, acreditación de horas y emisión de certificados). Además, se comprobó el correcto funcionamiento de los mecanismos de seguridad y control, tales como el rechazo de QR y marcas de salida no autorizadas, el bloqueo de usuarios por reintentos fallidos de PIN, la anulación de certificados ante revocaciones y la gestión masiva de hasta 300 alumnos mediante archivos CSV.",
+        "ubicacion": "Subsuelo - Stand 45",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Kevin Isaac Gómez Cuevas",
+            "Camila Noel Benítez Aguilera",
+            "Pedro Sebastián Ríos Medina"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/45/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/45/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/45/anexo3.jpeg"
+    },
+    {
+        "id": 46,
+        "titulo": "La Grúa exponencial",
+        "categoria": "laboratorio-fisica",
+        "categoriaNombre": "Laboratorio de Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "Demostración del funcionamiento de una grúa exponencial. El público podrá observar e interpretar cómo logra una grúa alivianar el peso de los objetos.",
+        "problema": "La necesidad de determinar experimentalmente la ventaja mecánica de un sistema de dos poleas móviles (conocido como grúa exponencial) para comprobar cómo una máquina simple reduce la fuerza motora necesaria para equilibrar una carga, contrastando los valores obtenidos con el modelo teórico y la ley áurea de la mecánica.",
+        "objetivoGeneral": "Determinar la ventaja mecánica de una grúa exponencial de dos poleas móviles y reconocerla como una máquina simple.",
+        "objetivosEspecificos": [
+            "Medir la fuerza motora que equilibra la carga y compararla con el peso de un cubo con 23 mL de agua.",
+            "Comprobar la ley áurea de la mecánica con las distancias recorridas por la fuerza motora y la carga.",
+            "Contrastar los valores medidos con el modelo teórico FM = FR/2N ."
+        ],
+        "desarrollo": "Se realizó un montaje experimental utilizando un trípode universal, dos poleas móviles, un dinamómetro de 2 N, masas, hilo flexible y una jeringa con agua. Se midió la carga total (FR = 1,62\text{ N}), la fuerza motora (FM) necesaria para equilibrarla y los recorridos de la carga y de la fuerza para evaluar el cumplimiento de las ecuaciones teóricas de la ventaja mecánica y la ley de conservación del trabajo.",
+        "resultados": "Se obtuvo una fuerza motora medida de 0,38 N (cercana al valor ideal de 0,405 N) y una ventaja mecánica experimental de 3,75, la cual muestra una mínima diferencia del 6,3% respecto al valor teórico ideal de 4, debido principalmente a factores como la fricción, el peso de los componentes y la resolución de los instrumentos de medición.",
+        "ubicacion": "Subsuelo - Stand 46",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Marcelo Cohene",
+            "Salomé González",
+            "Matias Hisaoka",
+            "Tobias Portillo", 
+            "Santiago Verón"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/46/anexo2.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/46/anexo3.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/46/anexo.jpeg"
+    },
       {
         "id": 47,
         "titulo": "Gravitación universal. Leyes del movimiento planetario de Kepler",
@@ -733,5 +945,40 @@
             }
         ],
         "imagen": "../assets/stands/52/anexo3.jpg"
+    },
+    {
+        "id":53,
+        "titulo": "Grúa con sistema de poleas",
+        "categoria": "fisica",
+        "categoriaNombre": "Física",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "El proyecto es una maqueta a escala de una grúa con un sistema de cuatro poleas desarrollada para la ExpoCiencia 2026. Su objetivo es demostrar de forma práctica los principios físicos de las máquinas simples y cómo la ventaja mecánica reduce el esfuerzo necesario para la elevación de cargas en el área de ingeniería electromecánica.",
+        "problema": "Se busca comprender cómo los principios físicos se aplican en la práctica mediante la construcción de una grúa a escala de bajo costo y el análisis de su capacidad para elevar cargas.",
+        "objetivoGeneral": "Construir una grúa a escala con un sistema de poleas para demostrar y analizar la aplicación de principios físicos relacionados con la elevación de cargas y el funcionamiento de máquinas simples.",
+        "objetivosEspecificos": [
+            "Identificar y explicar los principios físicos que intervienen en el funcionamiento de los sistemas de poleas.",
+            "Evaluar el funcionamiento de la maqueta mediante pruebas de elevación, considerando el movimiento de la carga y la estabilidad de la estructura."
+        ],
+        "desarrollo": "El proyecto se desarrolló mediante un enfoque experimental y descriptivo basado en la construcción de una maqueta de grúa con un sistema de poleas. Se incorporó un sistema de cuatro poleas para distribuir el peso entre cuatro tramos de cuerda y disminuir la fuerza aplicada. El análisis matemático utilizó fórmulas de peso y equilibrio estático, determinando que la fuerza requerida para elevar la carga se reduce a la cuarta parte.",
+        "resultados": "La maqueta demostró con éxito el funcionamiento de las poleas para facilitar el levantamiento de objetos. Para una masa de 0.055 kg, el peso se calculó en 0.54 N, y mediante el modelo de cuatro tramos se estimó una fuerza ideal de elevación de 0.135 N. Esto comprueba que el uso de múltiples poleas reduce significativamente el esfuerzo necesario en la estructura de elevación.",
+        "ubicacion": "Subsuelo - Stand 53",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Ana Avalos",
+            "Moises Cuba",
+            "Lujan Gonzalez",
+            "Luz Ledezma"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/53/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/53/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/53/anexo3.jpeg"
     }
 ]
