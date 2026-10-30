@@ -137,12 +137,19 @@ function verProyecto(id) {
     const res = proyecto.resultados || "Resultados pendientes o en proceso.";
     const integrantes = proyecto.integrantes ? proyecto.integrantes.map(i => `<div class="integrante-caja">👤 ${i}</div>`).join('') : `<div class="integrante-caja">👤 Sin asignar</div>`;
     
-    const anexos = proyecto.anexos ? proyecto.anexos.map(a => `
-        <div class="anexo-caja">
-            <img src="${a.img}" alt="${a.titulo}" onerror="this.onerror=null; this.src='../assets/img/portada/stands.png';">
-            <div class="anexo-titulo">${a.titulo}</div>
+    // Validamos si existen anexos para renderizar la sección de forma condicional
+    const tieneAnexos = proyecto.anexos && proyecto.anexos.length > 0;
+    const seccionAnexos = tieneAnexos ? `
+        <h3 class="titulo-seccion" style="margin-top:20px;">🖼️ ANEXOS (GALERÍA)</h3>
+        <div class="lista-anexos">
+            ${proyecto.anexos.map(a => `
+                <div class="anexo-caja">
+                    <img src="${a.img}" alt="${a.titulo || 'Vista del proyecto'}" onerror="this.onerror=null; this.src='../assets/img/portada/stands.png';">
+                    <div class="anexo-titulo">${a.titulo || 'Vista del proyecto'}</div>
+                </div>
+            `).join('')}
         </div>
-    `).join('') : "<p style='color:#64748b; font-size: 13px;'>Sin anexos disponibles.</p>";
+    ` : '';
 
     const problema = proyecto.problema || "Problema no especificado.";
     const ubicacion = proyecto.ubicacion || "Ubicación por confirmar.";
@@ -186,8 +193,7 @@ function verProyecto(id) {
                 <h3 class="titulo-seccion" style="margin-top:20px;">👥 INTEGRANTES</h3>
                 <div class="lista-integrantes">${integrantes}</div>
                 ${botonRepo}
-                <h3 class="titulo-seccion" style="margin-top:20px;">🖼️ ANEXOS (GALERÍA)</h3>
-                <div class="lista-anexos">${anexos}</div>
+                ${seccionAnexos}
             </div>
         </div>
     `;

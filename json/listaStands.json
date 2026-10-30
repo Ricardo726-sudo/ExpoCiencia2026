@@ -1,267 +1,736 @@
 [
      {
-        "id": 1,
-        "titulo": "Chat gpt",
+        "id": 2,
+        "titulo": "Determinación experimental de la gravedad local por el método de fuerzas en equilibrio de Newton",
+        "categoria": "laboratorio-fisica",
+        "categoriaNombre": "Laboratorio de Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "Se determinó experimentalmente la aceleración de la gravedad midiendo el peso de diez masas conocidas, de 0,01 kg a 0,10 kg, con un dinamómetro. Al graficar el peso en función de la masa, la pendiente de la recta corresponde a g. El resultado, g = (9,86 ± 0,07) m/s², difiere en solo 0,54 % del valor estándar de 9,80665 m/s².",
+        "problema": "La masa y el peso suelen confundirse, aunque son magnitudes distintas: la masa se mide en kilogramos y caracteriza la cantidad de materia, mientras que el peso es una fuerza, se mide en newtons y depende de la gravedad. Surge entonces la pregunta de si, con un instrumento sencillo como el dinamómetro, es posible comprobar que el peso es proporcional a la masa, obtener una estimación aceptable de la gravedad local e identificar qué factores limitan la precisión de la medición.",
+        "objetivoGeneral": "Determinar experimentalmente la aceleración de la gravedad local mediante mediciones de masa y peso, aplicando el equilibrio de fuerzas.",
+        "objetivosEspecificos": [
+            "Distinguir las magnitudes masa y peso y sus unidades.",
+            "Registrar pares de datos de masa y peso en equilibrio estático.",
+            "Calcular g a partir de la pendiente de la gráfica P-m y del cociente P/m.",
+            "Comparar el resultado con el valor estándar e identificar fuentes de error."
+        ],
+        "desarrollo": "Se suspendieron diez masas del dinamómetro, mantenido en posición vertical y con el indicador en cero sin carga. Con la masa en reposo, la fuerza elástica del resorte (T) equilibra el peso (P), de modo que la lectura del instrumento es igual al peso. Con el modelo P = mg, la pendiente de la gráfica de P en función de m es la aceleración de la gravedad.",
+        "resultados": "El ajuste por mínimos cuadrados con recta por el origen dio g = (9,86 ± 0,07) m/s², con coeficiente de correlación r = 0,9995. Esto representa una diferencia de 0,54 % respecto del valor estándar, que queda dentro del intervalo de confianza del 95 % [9,70; 10,02] m/s². Como verificaciones secundarias, el promedio de los cocientes P/m fue 9,54 m/s² y el ajuste con intercepto libre dio 10,15 m/s².\nObservaciones. \nLas mayores desviaciones se concentraron en las masas pequeñas, donde la resolución de lectura del dinamómetro pesa más en términos relativos. Para una conclusión metrológica más rigurosa se recomienda repetir cada medida, verificar el cero antes de cada serie y registrar la resolución del instrumento.",
+        "ubicacion": "Subsuelo - Stand 2",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Franco Rodríguez",
+            "Giulianna Duarte",
+            "María José Marín",
+            "Andrés González",
+            "Fátima Meza",
+            "Lucas Cuenca"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/02/integrantes.jpeg",
+                "titulo": "Integrantes"
+            },
+             {
+                "img": "../assets/stands/02/anexo.jpeg",
+                "titulo": "Integrantes"
+            }
+        ],
+        "imagen": "../assets/stands/02/portada.jpeg"
+
+     },
+       {
+        "id": 3,
+        "titulo": "Estudio de circuitos eléctricos: asociación de focos en serie y paralelo",
+        "categoria": "laboratorio-fisica",
+        "categoriaNombre": "Laboratorio de Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "El presente informe detalla la marcha de actividades experimental realizada en el laboratorio, enfocada en el análisis de circuitos con lámparas conectadas en serie. A través del uso de fuentes de alimentación regulables, multímetros digitales y paneles de prueba modulares, se midieron los valores de tensión en cada componente, evaluando el impacto de la desconexión de elementos y comparando los resultados experimentales con la teoría fundamental de circuitos.",
+        "problema": "En el análisis y diseño de circuitos eléctricos, a menudo surgen interrogantes sobre cómo se distribuye la tensión de la fuente entre los diferentes componentes conectados en serie y en qué medida la interrupción o falla de un único elemento (como una lámpara fundida o retirada) afecta al funcionamiento global del sistema. Asimismo, es crucial determinar experimentalmente si la suma de las caídas de tensión parciales en cada componente equivale a la tensión total suministrada por la fuente, diferenciando este comportamiento frente a las conexiones en paralelo.",
+        "objetivoGeneral": "Estudiar el comportamiento experimental de los circuitos eléctricos con lámparas en serie, analizando la distribución de tensiones, el efecto de la apertura del circuito ante la retirada de componentes y contrastando los fundamentos teóricos con los circuitos en paralelo.",
+        "objetivosEspecificos": [
+            "Medir y registrar la tensión eléctrica en los terminales de cada lámpara (L1, L2 y L3) conectada en serie.",
+            "Comprobar si la tensión suministrada por la fuente se reparte como fracciones entre los focos del circuito.",
+            "Analizar el efecto inmediato sobre el circuito al retirar o desconectar uno de los focos portafocos.",
+            "Describir y contrastar las diferencias teóricas y operativas entre los circuitos en serie y en paralelo."
+        ],
+        "desarrollo": "Un circuito eléctrico es una trayectoria cerrada que permite el flujo de electrones (corriente eléctrica). En un circuito en serie, los componentes se conectan uno a continuación del otro, existiendo una única trayectoria para la corriente. Esto implica que la intensidad de corriente es la misma en todos los elementos y que la tensión total suministrada por la fuente equivale a la suma de las caídas de tensión individuales (V_total = V1 + V2 + V3). La interrupción o retiro de un solo componente abre la trayectoria y apaga todo el circuito.   Por el contrario, en un circuito en paralelo existen múltiples caminos independientes; la tensión es idéntica en cada rama (V_total = V1 = V2 = V3) y el fallo de un componente no afecta el funcionamiento de los demás.",
+        "resultados": "A continuación se presentan los valores medidos experimentalmente en el laboratorio para cada una de las lámparas conectadas en serie, así como la tensión total de la fuente (T).\nVoltaje en L1 = 1,4 V\nVoltaje en L2 = 1,4 V\nVoltaje en L3 = 1,5 V\nT = Tensión total medida de la fuente (T):\nT = 4,5 V\n• Análisis de la distribución de tensión: Al sumar las caídas de tensión individuales obtenidas en las lámparas (1,4 V + 1,4 V + 1,5 V = 4,3 V a 4,5 V), se comprueba experimentalmente la Ley de Tensiones de Kirchhoff, confirmando que la tensión total de la fuente (4,5 V) se divide fraccionadamente entre los receptores conectados en serie.\n• Comportamiento ante la retirada de un componente: Al retirar el foco L2 del circuito, se interrumpió la trayectoria única de la corriente, provocando el apagado inmediato de todo el sistema (todos los focos se apagan). Esto contrasta directamente con un circuito en paralelo, donde la remoción de una lámpara habría dejado intacta la operación de las demás ramas.",
+        "ubicacion": "Subsuelo - Stand 3",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Ayelen Esteve",
+            "Valeria Pérez",
+            "Leandro Yoon",
+            "Oscar Servian",
+            "Juan Estigarribia",
+            "Willian Valdez"
+        ],
+        "anexos": [
+           
+        ],
+        "imagen": "../assets/img/portada/standaportada.png"
+    },
+      {
+        "id": 4,
+        "titulo": "Baldosas piezoeléctricas",
+        "categoria": "electricidad-magnetismo",
+        "categoriaNombre": "Electricidad y magnetismo",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Esta Memoria Técnica de Ingeniería documenta el diseño, dimensionamiento y construcción a escala de una Planta Metalúrgica Automatizada e Integrada. El sistema simula el comportamiento de un complejo industrial mediante la integración de subsistemas electrónicos, eléctricos y mecánicos. El prototipo incluye la infraestructura física de la nave industrial y sus áreas operativas (hornos, carga/descarga, servicios y estacionamiento), junto con funciones de control centralizado, iluminación fotosensible, gestión térmica, automatización de portones y cintas, sensado de reservorios y un sistema UPS protegido por un tablero de seguridad. El desarrollo fue realizado de forma modular por ocho equipos de trabajo y consolida la fundamentación teórica, memorias de cálculo, diagramas de circuitos simulados y mediciones reales de consumo energético.",
+        "problema": "Al caminar, las personas generan energía mecánica que habitualmente se desperdicia en el entorno. Frente a esto, surge la necesidad de investigar e implementar tecnologías sustentables que permitan recuperar esa energía mediante la construcción de baldosas piezoeléctricas capaces de transformar la presión de las pisadas en energía eléctrica.",
+        "objetivoGeneral": "Diseñar y evaluar un prototipo a pequeña escala de baldosa piezoelectrica para transformar la energia mecanica de las pisadas en energia electrica y almacenar su carga.",
+        "objetivosEspecificos": [
+            "Construir la estructura del prototipo utilizando placas de madera, PVC y resortes para la absorcion y retorno de presion mecanica.", 
+            "Implementar un circuito electrico compuesto por discos piezoelectricos en paralelo, puente de diodos y un capacitor de almacenamiento.", 
+            "Medir la generacion de voltaje producida por las pisadas y verificar su capacidad para alimentar un LED indicador."
+        ],
+        "desarrollo": "Se construyo un prototipo con una estructura de madera (placas de 30x30 cm), una lamina de PVC y 8 resortes que permiten absorber y retornar la presion mecanica. En su interior se instalaron 6 discos piezoelectricos conectados en paralelo, cuyo flujo electrico se rectifica con un puente de diodos y se almacena en un capacitor de 330 uF, conectado a un boton pulsador y un LED indicador.",
+        "resultados": "Con pisadas continuas, el capacitor incrementó su voltaje paulatinamente (aprox. $0,01\text{ V}$ por pisada) hasta alcanzar una tensión máxima de $2,5\text{ V}$. Tras aproximadamente 20 pisadas, al presionar el botón se liberó la energía acumulada encendiendo el LED durante $1\text{ segundo}$ aproximadamente.",
+        "ubicacion": "Subsuelo - Stand 4",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Alexia Fiorella Eguiazu Jacquet",
+            "Evelyn Guadalupe Ocampos Colmán",
+            "Erasmo Samuel Torales Ruiz"
+        ],
+        "anexos": [
+           {
+                "img": "../assets/stands/04/anexo2.jpeg",
+                "titulo": "Caño de plasma"
+            },
+             {
+                "img": "../assets/stands/04/anexo1.jpeg",
+                "titulo": "Caño de plasma"
+            }
+        ],
+        "imagen": "../assets/stands/04/anexo.jpeg"
+    },
+
+      {
+        "id": 9,
+        "titulo": "Cañón de plasma",
+        "categoria": "fisica",
+        "categoriaNombre": "Física",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Se presentará un Cañón de plasma. Un dispositivo hecho con materiales reciclados para demostrar el cuarto estado de la materia.",
+        "problema": "Analizar los principios físicos de combustión y movimiento de gases en el montaje denominado cañón de plasma",
+        "objetivoGeneral": "Interpretar los principios físicos de combustión y movimiento de gases que explican el efecto luminoso observado. ",
+        "objetivosEspecificos": [
+            "Identificar el papel del combustible, el oxígeno del aire y la energía de activación.",
+            "Relacionar el frente de reacción con la transferencia de calor y la composición de la mezcla.",
+            "Explicar la expansión térmica y los cambios de presión mediante modelos simplificados.",
+            "Describir el origen del color azul y reconocer los riesgos del montaje."
+        ],
+        "desarrollo": "Estudio documental y explicativo basado en termodinámica (Delta U = Q - W) y la ley de los gases ideales (pV = nRT), utilizando materiales básicos y sin registros instrumentales de presión o tiempo.",
+        "resultados": "Son interpretaciones cualitativas: la luz azul es quimioluminiscencia por especies excitadas (como CH) y la salida brusca se debe a la expansión de gases calientes, sin haber medido la sobrepresión.",
+        "ubicacion": "Subsuelo - Stand 9",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Arianna Anthonela Coronel García",
+            "Jorge Enmanuel Rios Barrios",
+            "Giovanni Moisés Larroza Miranda",
+            "José María Barrios ",
+            "Estrella Belen Ocampos Noguera"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/09/anexo.jpeg",
+                "titulo": "Caño de plasma"
+            }
+        ],
+        "imagen": "../assets/stands/09/anexo.jpeg"
+    },
+        {
+        "id": 15,
+        "titulo": "Prototipo de detector de fuga de gas butano con sistema de ventilación y alarma",
+        "categoria": "electricidad-magnetismo",
+        "categoriaNombre": "Electricidad y magnetismo",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Prototipo de detector de gas butano con sistema de ventilación y alarma",
+        "problema": "Las fugas de gas butano representan un grave riesgo de explosiones e incendios, y existe una falta de sistemas integrados de bajo costo que actúen físicamente sin depender de la reacción humana.",
+        "objetivoGeneral": "Diseñary desarrollarun prototipode sistemapara la deteccióny notificaciónde fugasde gasbutano con sistema de ventilación y alarma",
+        "objetivosEspecificos": [
+            "Identificar y determinar los elementos tecnológicos necesarios para el Desarrollo del sistema",
+            "Diseñar el hardware y software para el sistema de ventilación y alarma de fugas de gasbutano",
+            "Implementar y verificar el funcionamiento del sistema de ventilación y alarmade fuga de gas butano"
+        ],
+        "desarrollo": "Se diseñó un sistema de control automatizado utilizando un microcontrolador Arduino Uno, un sensor de gas MQ-2, una alarma (zumbador) y un extractor de aire de 12V controlado por un relé. El programa evalúa la concentración de gas y activa simultáneamente la alarma y la ventilación si se supera el umbral de peligro.",
+        "resultados": "El prototipo funcionó con una eficacia del 95% durante las pruebas. Al detectar 300 PPM de gas, activó automáticamente la alarma visual, la auditiva y el sistema de ventilación, expulsando el gas rápidamente y volviendo a niveles normales.",
+        "ubicacion": "Subsuelo - Stand 15",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Nadia Diarte",
+            "Tobias López"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/15/anexo2.jpeg"
+            },
+            {
+                "img": "../assets/stands/15/anexo.jpeg"
+            }
+        ],
+        "imagen": "../assets/stands/15/portada.jpeg"
+    },
+
+       {
+        "id": 20,
+        "titulo": "Sistema de control de semáforos mediante inteligencia Artificial para la optimización del flujo vehicular",
+        "categoria": "metodologia-investigacion",
+        "categoriaNombre": "Metodología de la Investigación",
+        "area": "ingenieria-informatica",
+        "descripcion": "Se presentará un proyecto de semáforo inteligente basado en inteligencia artificial, cuyo objetivo es mejorar la circulación vehicular y reducir la congestión del tráfico. Mediante un video, se demostrará cómo la IA podría detectar y contar vehículos utilizando visión artificial, para luego ajustar automáticamente los tiempos de los semáforos según la cantidad de tráfico en cada dirección.",
+        "problema": "La congestión en las intersecciones urbanas evidencia las limitaciones de los semáforos de tiempos fijos cuando la demanda vehicular varía, lo que provoca descoordinación, mayores demoras y acumulación de tráfico.",
+        "objetivoGeneral": "Diseñar un modelo de control semafórico adaptativo basado en información visual del tránsito y representar su funcionamiento mediante una simulación en video.",
+        "objetivosEspecificos": [
+            "Investigar los sistemas semafóricos tradicionales e inteligentes y sus aplicaciones en movilidad urbana.", 
+            "Proponer un procedimiento de identificación y conteo de vehículos en videos de intersecciones. ", 
+            "Diseñar reglas para asignar tiempos de verde en función de la demanda y atender solicitudes de prioridad de emergencia de forma segura.",
+            "Definir una comparación con semáforos de tiempos fijos mediante indicadores de simulación."
+        ],
+        "desarrollo": "Se estructuró una investigación aplicada de alcance exploratorio basada en simulación y visión por computadora utilizando Python, OpenCV y un detector de objetos de la familia YOLO. El sistema procesa material visual para detectar y contar vehículos por acceso, aplicando un algoritmo de control que asigna dinámicamente tiempos de luz verde según la demanda relativa y contempla un protocolo seguro de prioridad para vehículos de emergencia.",
+        "resultados": "Dado que el proyecto se encuentra en fase de diseño y propuesta, no se dispone de mediciones experimentales de mejora efectiva. Los resultados se proyectan mediante una simulación comparativa entre ciclos fijos y control adaptativo, evaluando indicadores como la espera media, la longitud de cola, el flujo atendido y el tiempo de atención de emergencias.",
+        "ubicacion": "Subsuelo - Stand 20",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Fernando Yvan Maidana Fleitas",
+            "Nathaly Sabrina Coronel Benítez",
+            "Pablo Ricardo Figueredo López"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/20/anexo1.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/20/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/20/anexo.jpeg"
+    },
+      {
+        "id": 25,
+        "titulo": "AdoptaPY",
         "categoria": "programacion-vi",
         "categoriaNombre": "Programación VI",
-        "area": "ingenieria-informaticas",
-        "descripcion": "Prototipo de comunicación óptica que transmite señales de audio a través de un haz de luz láser, ideal para entornos con ruido magnético.",
-        "problema": "Interferencia electromagnética severa en entornos industriales que corta o distorsiona la transmisión de datos por radiofrecuencia convencional.",
-        "objetivoGeneral": "Diseñar e implementar un sistema de comunicación óptica inalámbrica (VLC) para la transmisión segura y nítida de audio.",
-        "objetivosEspecificos": [
-            "Modular una señal de audio analógica directamente en la alimentación de un diodo láser.",
-            "Construir un circuito receptor altamente sensible utilizando un fotodiodo y filtros de luz.",
-            "Evaluar la atenuación y calidad del sonido a distancias mayores a 50 metros."
-        ],
-        "desarrollo": "Se utilizó un modulador analógico para variar la intensidad de un láser de 5mW según la amplitud de la señal de audio. En la estación de recepción, un fotodiodo capta las variaciones de luz y un amplificador operacional LM386 recupera y amplifica el sonido para reproducirlo en un altavoz.",
-        "resultados": "Se logró una transmisión nítida de audio a una distancia de 50 metros en pasillos de la facultad, demostrando inmunidad total a las interferencias de redes Wi-Fi y motores eléctricos cercanos.",
-        "ubicacion": "Primer Piso - Laboratorio de Telecomunicaciones, Stand T1",
-        "enlaceRepo": "https://github.com/expo-uninorte/audio-laser",
-        "integrantes": [
-            "laura",
-            " Ruiz"
-        ],
-        "anexos": [
-            {
-                "img": "../assets/stands/robotica.jfif",
-                "titulo": "Ribotica"
-            },
-            {
-                "img": "../assets/img/stands/laser2.jpg",
-                "titulo": "Receptor óptico y etapa de amplificación"
-            }
-        ],
-        "imagen": "../assets/img/foto/instagram.jfif"
-    },
-   
-    {
-        "id": 2,
-        "titulo": "Sistema de Transmisión de Audio por Láser",
-        "categoria": "radiocomunicaciones-antenas",
-        "categoriaNombre": "Radiocomunicaciones",
-        "area": "ingenieria-telecomunicaciones",
-        "descripcion": "Prototipo de comunicación óptica que transmite señales de audio a través de un haz de luz láser, ideal para entornos con ruido magnético.",
-        "problema": "Interferencia electromagnética severa en entornos industriales que corta o distorsiona la transmisión de datos por radiofrecuencia convencional.",
-        "objetivoGeneral": "Diseñar e implementar un sistema de comunicación óptica inalámbrica (VLC) para la transmisión segura y nítida de audio.",
-        "objetivosEspecificos": [
-            "Modular una señal de audio analógica directamente en la alimentación de un diodo láser.",
-            "Construir un circuito receptor altamente sensible utilizando un fotodiodo y filtros de luz.",
-            "Evaluar la atenuación y calidad del sonido a distancias mayores a 50 metros."
-        ],
-        "desarrollo": "Se utilizó un modulador analógico para variar la intensidad de un láser de 5mW según la amplitud de la señal de audio. En la estación de recepción, un fotodiodo capta las variaciones de luz y un amplificador operacional LM386 recupera y amplifica el sonido para reproducirlo en un altavoz.",
-        "resultados": "Se logró una transmisión nítida de audio a una distancia de 50 metros en pasillos de la facultad, demostrando inmunidad total a las interferencias de redes Wi-Fi y motores eléctricos cercanos.",
-        "ubicacion": "Primer Piso - Laboratorio de Telecomunicaciones, Stand T1",
-        "enlaceRepo": "",
-        "integrantes": [
-            "Laura Villalba",
-            "Esteban Ruiz"
-        ],
-        "anexos": [
-            {
-                "img": "../assets/img/stands/laser1.jpg",
-                "titulo": "Circuito emisor acoplado al láser"
-            },
-            {
-                "img": "../assets/img/stands/laser2.jpg",
-                "titulo": "Receptor óptico y etapa de amplificación"
-            }
-        ],
-        "imagen": "../assets/img/stands/foto-telecom.jpg"
-    },
-    {
-        "id": 3,
-        "titulo": "Sistema de Transmisión de Audio por Láser",
-        "categoria": "radiocomunicaciones-antenas",
-        "categoriaNombre": "Radiocomunicaciones",
-        "area": "ingenieria-telecomunicaciones",
-        "descripcion": "Prototipo de comunicación óptica que transmite señales de audio a través de un haz de luz láser, ideal para entornos con ruido magnético.",
-        "problema": "Interferencia electromagnética severa en entornos industriales que corta o distorsiona la transmisión de datos por radiofrecuencia convencional.",
-        "objetivoGeneral": "Diseñar e implementar un sistema de comunicación óptica inalámbrica (VLC) para la transmisión segura y nítida de audio.",
-        "objetivosEspecificos": [
-            "Modular una señal de audio analógica directamente en la alimentación de un diodo láser.",
-            "Construir un circuito receptor altamente sensible utilizando un fotodiodo y filtros de luz.",
-            "Evaluar la atenuación y calidad del sonido a distancias mayores a 50 metros."
-        ],
-        "desarrollo": "Se utilizó un modulador analógico para variar la intensidad de un láser de 5mW según la amplitud de la señal de audio. En la estación de recepción, un fotodiodo capta las variaciones de luz y un amplificador operacional LM386 recupera y amplifica el sonido para reproducirlo en un altavoz.",
-        "resultados": "Se logró una transmisión nítida de audio a una distancia de 50 metros en pasillos de la facultad, demostrando inmunidad total a las interferencias de redes Wi-Fi y motores eléctricos cercanos.",
-        "ubicacion": "Primer Piso - Laboratorio de Telecomunicaciones, Stand T1",
-        "enlaceRepo": "https://github.com/expo-uninorte/audio-laser",
-        "integrantes": [
-            "Laura Villalba",
-            "Esteban Ruiz"
-        ],
-        "anexos": [
-            {
-                "img": "../assets/img/stands/laser1.jpg",
-                "titulo": "Circuito emisor acoplado al láser"
-            },
-            {
-                "img": "../assets/img/stands/laser2.jpg",
-                "titulo": "Receptor óptico y etapa de amplificación"
-            }
-        ],
-        "imagen": "../assets/img/stands/foto-telecom.jpg"
-    },
-    {
-        "id": 4,
-        "titulo": "Gestor de Inventario con Arquitectura Multicapa",
-        "categoria": "programacion-iv",
-        "categoriaNombre": "Programación IV",
         "area": "ingenieria-informatica",
-        "descripcion": "Sistema de escritorio multicapa para el control de stock, kardex automático y registro de ventas de una tienda de electrónica.",
-        "problema": "Descontrol en los registros manuales de tiendas minoristas de repuestos, lo que genera pérdidas de inventario por falta de trazabilidad.",
-        "objetivoGeneral": "Desarrollar una aplicación de escritorio robusta que automatice el control de inventario y gestione de forma segura las transacciones comerciales.",
+        "descripcion": "Sistema de adopción de mascotas.",
+        "problema": "La búsqueda de mascotas para adopción y el contacto con refugios en Paraguay suelen estar fragmentados en múltiples canales, lo que dificulta consultar datos organizados, conocer el estado de disponibilidad del animal y dar seguimiento a las solicitudes.",
+        "objetivoGeneral": "Desarrollar una aplicación multiplataforma que facilite la conexión entre refugios y potenciales adoptantes de perros y gatos en Paraguay. ",
         "objetivosEspecificos": [
-            "Diseñar una base de datos relacional normalizada en SQL Server.",
-            "Implementar una arquitectura de software en 3 capas (Datos, Negocio, Presentación).",
-            "Generar reportes automáticos en PDF para auditorías de stock crítico."
+            "Permitir a los refugios publicar y administrar mascotas.",
+            "Ofrecer a los adoptantes información de animales disponibles.",
+            "Incorporar favoritos y solicitudes de adopción.",
+            "Permitir a los refugios gestionar las solicitudes recibidas.",
+            "Utilizar servicios de autenticación y persistencia en la nube",
+            "Presentar una interfaz clara y adaptable a dispositivos móviles. "
         ],
-        "desarrollo": "Desarrollo en C# utilizando Windows Forms. La conexión a la base de datos se maneja mediante ADO.NET y procedimientos almacenados para mayor seguridad. Se implementaron disparadores (triggers) en SQL Server para actualizar el kardex de manera automática tras cada venta concretada.",
-        "resultados": "El sistema reduce el tiempo de registro de ventas de 3 minutos a solo 15 segundos por cliente, y emite alertas instantáneas en pantalla sobre productos que están próximos a agotarse.",
-        "ubicacion": "Planta Baja - Pasillo Informática, Stand I5",
-        "enlaceRepo": "https://github.com/expo-uninorte/gestor-inventario-csharp",
-        "integrantes": [
-            "Micaela Rojas",
-            "Santiago Medina",
-            "Lucas Fernandez"
-        ],
-        "anexos": [
-            {
-                "img": "../assets/img/stands/csharp1.jpg",
-                "titulo": "Interfaz del panel de facturación"
-            },
-            {
-                "img": "../assets/img/stands/csharp2.jpg",
-                "titulo": "Diagrama relacional de la base de datos"
-            }
-        ],
-        "imagen": "../assets/img/stands/foto-software.jpg"
-    },
-    {
-        "id": 5,
-        "titulo": "Controlador PID para Horno de Tratamiento Térmico",
-        "categoria": "electronica-ii",
-        "categoriaNombre": "Electrónica II",
-        "area": "ingenieria-electromecanica",
-        "descripcion": "Sistema de control electrónico que estabiliza y mantiene la temperatura exacta de un horno industrial para el temple de metales.",
-        "problema": "Fluctuaciones severas de temperatura en hornos convencionales que causan fragilidad y deformación en las piezas metálicas durante el tratamiento térmico.",
-        "objetivoGeneral": "Diseñar un controlador proporcional, integral y derivativo (PID) de precisión para estabilizar la temperatura interna de un horno resistivo.",
-        "objetivosEspecificos": [
-            "Modelar matemáticamente la curva de calentamiento y enfriamiento del horno.",
-            "Diseñar el circuito de potencia utilizando relés de estado sólido (SSR).",
-            "Ajustar las constantes PID mediante software para evitar sobreimpulsos térmicos."
-        ],
-        "desarrollo": "Se programó un microcontrolador para leer los datos de una termocupla industrial tipo K mediante un módulo amplificador MAX6675. El algoritmo PID integrado calcula continuamente el ciclo de trabajo (PWM) necesario, el cual se envía al SSR para regular la potencia entregada a las resistencias calefactoras sin utilizar contactores mecánicos.",
-        "resultados": "Se logró mantener una temperatura objetivo de 800°C con una variación máxima de apenas ±2°C a lo largo de 4 horas, mejorando notablemente la dureza del acero tratado en las pruebas de laboratorio.",
-        "ubicacion": "Patio Central - Zona Industrial, Stand E2",
+        "desarrollo": "Se construyó un prototipo multiplataforma utilizando Flutter, Dart, Firebase Authentication y Cloud Firestore, estructurando roles de usuario, gestión de mascotas, favoritos y solicitudes de adopción mediante un proceso incremental.",
+        "resultados": "El análisis estático de código concluyó sin incidencias, y la aplicación se ejecutó con éxito en el navegador Chrome, logrando compilar un paquete APK para Android de 54,8MB que se instaló y abrió correctamente en dispositivos móviles.",
+        "ubicacion": "Subsuelo - Stand 25",
         "enlaceRepo": "",
         "integrantes": [
-            "Fernando Caceres",
-            "Diana Silva"
+            "Martin Román",
+            "Bruno Benítez",
+            "Edwin Kräuer",
+            "Bruno Moreira"
         ],
         "anexos": [
             {
-                "img": "../assets/img/stands/horno1.jpg",
-                "titulo": "Placa de control y módulo PID"
+                "img": "../assets/stands/25/anexo.jpeg",
+                "titulo": ""
+                
             },
             {
-                "img": "../assets/img/stands/horno2.jpg",
-                "titulo": "Prueba de temperatura con acero"
+                 "img": "../assets/stands/25/anexo1.jpeg",
+                "titulo": ""
             }
         ],
-        "imagen": "../assets/img/stands/foto-electronica.jpg"
+        "imagen": "../assets/stands/25/portada.png"
     },
-    
+
     {
-        "id": 6,
-        "titulo": "Determinación de la Aceleración de la Gravedad",
+        "id": 26,
+        "titulo": "Demostración suspensión magnética",
+        "categoria": "fisica",
+        "categoriaNombre": "Física",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Demostración del funcionamiento de una Suspensión Magnética ",
+        "problema": "Los sistemas convencionales de suspensión automotriz dependen de componentes mecánicos (resortes y amortiguadores) para reducir impactos y absorber vibraciones. Surge la necesidad de explorar y analizar configuraciones alternativas mediante principios físicos del magnetismo, estudiando cómo las fuerzas de repulsión entre imanes de neodimio pueden mitigar impactos y controlar el desplazamiento relativo entre la carrocería y las ruedas.",
+        "objetivoGeneral": "Diseñar y construir un prototipo a escala de suspensión magnética con imanes permanentes para analizar su efecto en la amortiguación del vehículo.",
+        "objetivosEspecificos": [
+            "Construir la estructura del automóvil a escala en madera.",
+            "Montar imanes de neodimio para generar fuerza de repulsión.",
+            "Probar la recuperación y comportamiento del sistema al aplicar presión."
+        ],
+        "desarrollo": "Se diseñó y construyó un prototipo a escala de un automóvil de madera equipado con un sistema de guiado y suspensión magnética. En el ensamblaje se integraron imanes de neodimio alineados por sus polos para generar fuerzas de repulsión en lugar de resortes. El procedimiento consistió en aplicar presión vertical sobre la carrocería para evaluar cómo la interacción y repulsión entre los imanes responde frente a la compresión, permitiendo que la estructura recupere su posición original.",
+        "resultados": "Durante las pruebas del automóvil de madera, se observó que los imanesde neodimio enfrentados por polos iguales generan una fuerza derepulsión. Esta fuerza permite mantener cierta separación entre lacarrocería y las ruedas, demostrando el principio de funcionamiento de unasuspensión magnética. También se identificó que la posición y la distanciaentre los imanes influyen en su funcionamiento.",
+        "ubicacion": "Subsuelo - Stand 26",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Helmut Sebastián Achar Castillo",
+            "César Andrés Benítez Orue",
+            "Claudio Sebastián Ramírez Ferreira",
+            "Fabricio Britos",
+            "Juan Jose Delgado Escobar"
+        ],
+        "anexos": [
+             {
+                "img": "../assets/stands/26/anexo.jpeg",
+                "titulo": ""
+            },
+              {
+                "img": "../assets/stands/26/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/26/portada.jpeg"
+    },
+
+    {
+        "id": 30,
+        "titulo": "Enfriador de latas",
+        "categoria": "proyecto-independiente",
+        "categoriaNombre": "Proyecto Independiente",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Se presentará un enfriador de latas, que mejora el enfriamiento en función al tiempo",
+        "problema": "La mayoria de las personas desconoce el funcionamiento de la refrigeracion por compresion de vapor porque sus componentes estan ocultos en cajas cerradas, y persiste el uso de refrigerantes halogenados dañinos para el medio ambiente. Surge asi la necesidad de diseñar un equipo pequeño y demostrativo con componentes visibles que utilice un refrigerante ecologico como el isobutano (R600a), permitiendo explicar didacticamente el ciclo termodinamico y abordar los desafios de su manejo seguro debido a su inflamabilidad.",
+        "objetivoGeneral": " diseñar y analizar termodinámicamente un enfriador de latas de ciclo de compresión de vapor con R600a que sirva como demostración didáctica del principio de la refrigeración industrial.",
+        "objetivosEspecificos": [
+            "seleccionar los componentes (compresor de 1/8 HP, condensador, tubo capilar y evaporador) y describir la función de cada uno",
+            "calcular los estados termodinámicos, el COP y la capacidad frigorífica teórica del ciclo. ",
+            "establecer criterios de seguridad para el manejo del isobutano.",
+            "definir un protocolo de medición para validar el modelo en el prototipo. "
+        ],
+        "desarrollo": "La refrigeración por compresión de vapor sustenta la mayor parte de la industria del frío, pero sus componentes suelen permanecer ocultos para el público. Este trabajo presenta el diseño de un enfriador de latas de pequeña escala que reproduce ese mismo ciclo con isobutano, refrigerante natural identificado como R600a y de bajo potencial de calentamiento global. El objetivo es definir un equipo demostrativo, formado por un compresor hermético de un octavo de caballo de fuerza, un condensador, un tubo capilar y un evaporador, que permita explicar cada etapa del ciclo.",
+        "resultados": "En las condiciones de diseno, el circuito opera con presiones de 1,08 bar en el lado de baja y 6,04 bar en el lado de alta, registrando una relacion de compresion de 5,57. El sistema alcanzo un Coeficiente de Operacion (COP) de 2,25, lo que representa un 47% del limite teorico de Carnot. La capacidad frigorifica estimada fue de 210 W, logrando extraer 38,6 kJ para enfriar una lata de 355 mL desde 30 °C hasta 4 °C en un tiempo minimo teorico de 3,1 minutos.",
+        "ubicacion": "Subsuelo - Stand 30",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Dario Faria",
+            "Luciano Cristaldo",
+            "William Guerrero",
+            "Victor Ovelar",
+            "Thiago Olazar",
+            "Juan Amarilla"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/30/anexo3.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/30/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/30/integrantes.jpeg"
+    },
+        {
+        "id": 35,
+        "titulo": "Determinación de la gravedad local por el método del péndulo simple",
+        "categoria": "laboratorio-fisica",
+        "categoriaNombre": "Laboratorio de Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "Se presentará un pendulo simple con el que se observarán la variables que interfieren en el periodo y frecuencia. Con los datos se estimará el valor de la aceleración de la gravedad local.",
+        "problema": "Verificar experimentalmente las leyes empíricas del péndulo simple (isocronismo, independencia de la masa y relación con la longitud) y estimar el valor de la aceleración de la gravedad local (g).",
+        "objetivoGeneral": "Verificar experimentalmente las leyes del péndulo simple y estimar la aceleración de la gravedad local.",
+        "objetivosEspecificos": [
+            "Medir período y frecuencia con 10 oscilaciones completas.",
+            "Verificar isocronismo, masas (8,7g y 24,8g) y longitudes (200, 300 y 400mm).",
+            "Estimar g = 4π²L/T² y compararla con 9,8m/s²"
+        ],
+        "desarrollo": "Se montó un péndulo simple empleando una varilla, un cronómetro digital, una cinta métrica y dos masas distintas (aluminio de 8,7g y acero de 24,8g). Se midió el tiempo de 10 oscilaciones completas variando sistemáticamente la amplitud (20, 40 y 60mm), la masa y la longitud (L = 200, $ 300 y 400mm), calculando el período (T) y estimando la gravedad mediante la fórmula g = 4π²L/T².",
+        "resultados": "Se confirmó el isocronismo (el período varió menos del 4% con la amplitud y apenas varió entre las dos masas), y se constató que T² crece de forma lineal respecto a la longitud L. Y tambien se determinó una aceleración de la gravedad local de g = 9,95m/s², lo que representa una diferencia relativa de tan solo el 1,5% en comparación con el valor de referencia de 9,8m/s².",
+        "ubicacion": "Subsuelo - Stand 35",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Lucero Ríos",
+            "Ana Caballero",
+            "Stefania Ortega",
+            "Héctor García",
+            "Isaías Roza"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/35/anexo1.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/35/anexo3.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/35/anexo2.jpeg"
+    },
+    {
+        "id": 38,
+        "titulo": "Aplicación de ecuaciones físicas en un videojuego 2D",
+        "categoria": "fisica",
+        "categoriaNombre": "Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "GALACTIC ASSAULT 2D es un videojuego de acción y combate especial desarrollo en godot mediante el lenguaje C#. El proyecto integra programación orientada a objetos, física computacional, matemáticas aplicadas e inteligencia artificial basada en reglas. Durante la exposición, el público podrá observar y experimentar el funcionamiento del videojuego, controlar naves espaciales con diferentes características, utilizar armamentos, enfrentarse a enemigos y jefes, y conocer cómo se aplica conceptos de ingeniería informática en el desarrollo de un videojuego interactivo.",
+        "problema": "Comprender cómo se aplican la física, las matemáticas, el pensamiento lógico y la inteligencia artificial en las mecánicas de GALACTIC ASSAULT 2D.",
+        "objetivoGeneral": "Describir la aplicación de la física, las matemáticas, el pensamiento lógico, además de la inteligencia artificial basada en reglas en los sistemas implementados en GALACTIC ASSAULT 2D. ",
+        "objetivosEspecificos": [
+            "Identificar las operaciones físicas relacionadas con el movimiento, los proyectiles y las colisiones.",
+            "Describir el uso de vectores, ángulos y distancias para la orientación y la evasión.",
+            "Explicar el uso de condiciones y estructuras de control en la progresión del tutorial."
+        ],
+        "desarrollo": "Subsuelo - Stand 38",
+        "resultados": "En el desarrollo de videojuegos 2D se suelen integrar conceptos de fisica, matematicas, pensamiento logico e inteligencia artificial para crear sistemas interactivos. Sin embargo, surge la interrogante de como se aplican explicitamente estas cuatro disciplinas en los sistemas de un videojuego interactivo. Por ello, se plantea la siguiente pregunta de investigacion: ¿Como se aplican la fisica, las matematicas, el pensamiento logico y la inteligencia artificial basada en reglas en los sistemas implementados en GALACTIC ASSAULT 2D?",
+        "ubicacion": "Subsuelo - Stand 38",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Thiago Grance",
+            "Elias Ezequiel Talavera Sosa",
+            "Juan Facundo Aguero Loncharich",
+            "Franco Matias Maidana Leal",
+            "Cecilia Luján González Ayala",
+            "Aymar Paredes"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/38/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/38/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/38/portada.jpeg"
+    },
+        {
+        "id": 40,
+        "titulo": "Maquina de frenado regenerativo",
+        "categoria": "electricidad-magnetismo",
+        "categoriaNombre": "Electricidad y magnetismo",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Maqueta funcional a escala de un sistema de frenado regenerativo hidráulico, un prototipo didáctico e innovador que simula cómo operan los mecanismos de recuperación de energía en los vehículos eléctricos e híbridos modernos al momento de desacelerar.",
+        "problema": "En los sistemas de frenado tradicionales, la energía cinética del vehículo se disipa irreversiblemente en forma de calor no aprovechable, aumentando el consumo de combustible y el desgaste mecánico. Aunque el frenado regenerativo en vehículos híbridos permite capturar esta energía, su desempeño real decae drásticamente a bajas velocidades, donde la tensión inducida resulta insuficiente para alimentar la carga o aprovechar la energía en la fase final de la desaceleración.",
+        "objetivoGeneral": "Optimizar el rendimiento energético del sistema de frenado regenerativo en vehículos híbridos mediante la conversión y reutilización eficiente de la energía cinética disipada en un frenado convencional.",
+        "objetivosEspecificos": [
+            "Calcular la energía cinética inicial del vehículo antes de frenar.",
+            "Explicar la conversión de energía mecánica en eléctrica mediante las leyes de Faraday y Lenz.",
+            " Estimar la energía recuperada mediante el encendido de un LED de 3.2V."
+        ],
+        "desarrollo": "Mediante un enfoque cuantitativo y experimental, se construyó un prototipo de laboratorio a escala equipado con una entrada mecánica por ruedas, un motor eléctrico de 12 V operando como generador, un circuito rectificador con convertidor DC/DC y un LED indicador de 3.2 V como carga. Se aplicaron las leyes de inducción de Faraday y Lenz para modelar la conversión electromagnética y se registraron ensayos a 200, 400, 600 y 800 RPM para medir la tensión, la corriente, la energía recuperada y la eficiencia del sistema.",
+        "resultados": "A 800 RPM el sistema alcanzó una eficiencia máxima del 51,0% y recuperó 22,38J de energía (4,8V y 32mA. Sin embargo, por debajo de las 300 RPM la tensión cayó a menos de 2,0V, impidiendo el encendido del LED (0% de eficiencia), lo que confirma que a baja velocidad el sistema requiere complementarse con el freno de fricción convencional.",
+        "ubicacion": "Subsuelo - Stand 40",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Joel Vera",
+            "Thiago Giménez",
+            "Marcos Franco",
+            "Federico Ayala"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/40/anexo.jpeg",
+                "titulo": ""
+            }
+           
+        ],
+        "imagen": "../assets/stands/40/anexo2.jpeg"
+    },
+
+     {
+        "id": 41,
+        "titulo": "Condiciones de equilibrio de un móvil sobre un plano inclinado",
+        "categoria": "laboratorio-fisica",
+        "categoriaNombre": "Laboratorio de Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "Este trabajo analiza experimentalmente las condiciones de equilibrio de un móvil sobre un plano inclinado a 30°. Se utilizó un móvil de cuatro ruedas con dos masas cilíndricas de 50,0 g cada una, un dinamómetro de 2 N y un plano inclinado. Se obtuvo un peso de 1,66 N y una fuerza de tracción de 0,825 N. Las componentes paralela y perpendicular del peso fueron 0,83 N y 1,44 N, respectivamente, y la fuerza normal fue 1,44 N. La comparación entre los valores medidos y calculados permitió comprobar que las fuerzas se compensan y que la resultante es aproximadamente nula.",
+        "problema": "¿Cómo influyen y se compensan las fuerzas que actúan sobre un movil colocado en una superficie inclinada a 30°, y en qué medida los valores medidos experimentalmente coinciden con el modelo teórico de equilibrio traslacional de las leyes de Newton?",
+        "objetivoGeneral": "analizar experimentalmente las condiciones de equilibrio de un móvil sobre un plano inclinado a 30°.",
+        "objetivosEspecificos": [
+            "identificar el peso, la fuerza normal y la tracción",
+            "determinar las componentes paralela y perpendicular del peso",
+            "comparar los valores medidos con los calculados."
+        ],
+        "desarrollo": "Se realizó un estudio experimental con un móvil de cuatro ruedas, dos masas cilíndricas acoplables de 50,0 g cada una, un dinamómetro de 2 N y un plano inclinado. Primero se determinó el peso total del móvil con las dos masas. Luego se inclinó la rampa hasta 30° y el móvil se sujetó mediante un cable al dinamómetro. Se midió la fuerza de tracción necesaria para mantener el sistema en equilibrio. Con el peso P y el ángulo α se calcularon Px y Py y se compararon con T y N. Finalmente, los valores fueron organizados en una tabla y comparados entre sí. La verificación se realizó observando la relación T ≈ Px en la dirección paralela y N = Py en la dirección perpendicular. Con los datos obtenidos se aplicaron las expresiones Px = P sen(α) y Py = P cos(α). Para α = 30° se obtuvieron Px = 0,83 N y Py = 1,44 N. A partir de la condición de equilibrio perpendicular al plano se consideró N = 1,44 N. Después se ajustó el plano inclinado a 30°. El móvil se colocó sobre la superficie y se conectó al dinamómetro mediante un cable. Se esperó a que el sistema permaneciera en reposo antes de registrar la fuerza de tracción, cuyo valor experimental fue T = 0,825 N. El procedimiento comenzó con la preparación del móvil y la colocación de las dos masas cilíndricas de 50,0 g. Con el sistema completo se realizó la medición del peso mediante el dinamómetro, obteniéndose P = 1,66 N. Este valor fue utilizado posteriormente para calcular las componentes del peso.",
+        "resultados": "Tabla I. Resultados experimentales y calculados (30°):\n- Peso del móvil (P): 1,66 N\n- Fuerza de tracción (T): 0,825 N\n- Componente paralela (Px): 0,83 N\n- Componente perpendicular (Py): 1,44 N\n- Fuerza normal (N): 1,44 N\n\nCálculos: Px = 1,66 · sen(30°) = 0,83 N y Py = 1,66 · cos(30°) = 1,44 N.\n\nAnálisis: La tracción T (0,825 N) es prácticamente igual a Px (0,83 N), presentando una pequeña diferencia de solo 0,005 N. En la dirección perpendicular, N (1,44 N) coincide exactamente con Py (1,44 N). Esto demuestra que las fuerzas opuestas se compensan y confirma que los datos son consistentes con las condiciones de equilibrio traslacional (ΣFx = 0 y ΣFy = 0) de la Primera Ley de Newton.",
+        "ubicacion": "Subsuelo - Stand 41",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Derlis Ovelar",
+            "Fiorela Gonzalez",
+            "Leticia Cardozo",
+            "Luis Larre",
+            "Fabiola Saldivar"
+
+        ],
+        "anexos": [
+        ],
+        "imagen": "../assets/stands/41/anexo.jpeg"
+    },
+       {
+        "id": 42,
+        "titulo": "Estudio de la interacción magnética entre imanes",
+        "categoria": "electricidad-magnetismo",
+        "categoriaNombre": "Electricidad y magnetismo",
+        "area": "ingenieria-informatica",
+        "descripcion": "Es un estudio y modelo experimental didáctico diseñado para analizar la interacción magnética entre imanes permanentes y materiales ferromagnéticos como el hierro y el acero.",
+        "problema": "Debido a que los campos magnéticos son invisibles, su explicación basada exclusivamente en la teoría resulta muy abstracta y difícil de asimilar para el aprendizaje.",
+        "objetivoGeneral": "Analizar la interacción magnética entre imanes y materiales ferromagnéticos mediante el estudio de la fuerza y el campo magnético, utilizando un modelo experimental. ",
+        "objetivosEspecificos": [
+            "Explicar el comportamiento de la fuerza magnética y su relación con la interacción entre imanes y materiales ferromagnéticos.",
+            "Analizar la influencia de la distancia sobre la interacción magnética entre un imán y un material ferromagnético.",
+            "Diseñar y emplear un modelo experimental que represente de manera visual y práctica la interacción magnética estudiada."
+        ],
+        "desarrollo": "Se construyó una maqueta visual colocando objetos ferromagnéticos (sujetos con hilos) a distancias específicas de un imán (1, 2, 4 y 6 cm) y se esparcieron limaduras de hierro sobre una hoja para revelar las líneas del campo magnético.",
+        "resultados": "Se demostró cualitativamente cómo la inclinación y tensión de los hilos disminuye al alejar los objetos, ilustrando la aproximación teórica donde la fuerza decae con la distancia, resultando en un excelente recurso visual para la exposición.",
+        "ubicacion": "Subsuelo - Stand 42",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Jorge Ortega",
+            "Ethan Jimenez "
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/42/anexo1.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/42/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/42/anexo.jpeg"
+    },
+
+
+     {
+        "id": 44,
+        "titulo": "Puente Hidráulico a escala basado en el principio de Pascal",
+        "categoria": "fisica",
+        "categoriaNombre": "Física",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "El proyecto consiste en el diseño y construcción de un puente hidráulico a escala, basado en el principio de Pascal. Su funcionamiento utiliza jeringas conectadas mediante mangueras que contienen liquido, permitiendo transmitir la presión y generar el movimiento de la estructura del puente. Durante la exposición, el público podrá observar una demostración práctica del funcionamiento del sistema hidráulico y comprender cómo se relacionan la presión, la fuerza y el movimiento, así como conocer sus aplicaciones en puentes levadizos y sistemas de ingeniería.",
+        "problema": "Evaluar experimentalmente la eficiencia y la ventaja mecánica de un prototipo a escala de un puente levadizo accionado por un sistema hidráulico cerrado (basado en el Principio de Pascal), contrastando el comportamiento teórico ideal con el rendimiento real afectado por factores disipativos.",
+        "objetivoGeneral": "Evaluar experimentalmente la eficiencia y la ventaja mecánica de un modelo a escala de un puente levadizo accionado por un sistema hidráulico cerrado, mediante la aplicación directa del Principio de Pascal, con el fin de cuantificar la discrepancia entre el comportamiento teórico ideal y el rendimiento mecánico real debido a factores disipativos.",
+        "objetivosEspecificos": [
+            "Se determina analíticamente la ventaja mecánica teórica del sistema. Esto se hace midiendo la sección transversal de las jeringas (que funcionan como émbolos de entrada y salida).", 
+            "Se mide empíricamente las fuerzas de entrada (aplicadas) y de salida (resultantes). Esto se hace mediante pruebas controladas de carga. Con ello se calcula la ventaja mecánica real del prototipo", 
+            ""
+        ],
+        "desarrollo": "Se construyó un prototipo experimental a escala de un puente levadizo utilizando jeringas de 3 ml y 5 ml, mangueras flexibles y agua como fluido incompresible, efectuando ensayos de carga controlados bajo el Principio de Pascal y ecuaciones de equilibrio estático de torques",
+        "resultados": "se comprobó experimentalmente la relación proporcional directa entre la fuerza aplicada y la resultante, obteniendo presiones equivalentes en ambos émbolos (P1 = 0,0348Pa y P2 = 0,0346Pa) y una eficiencia global promedio del sistema del 86%, cuya ligera desviación respecto al modelo ideal se debió a la fricción estática en los cilindros.",
+        "ubicacion": "Subsuelo - Stand 44",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Máximo Ariel Samaniego Espinola",
+            "Fiorella Anahi Torales Arrua",
+            "Héctor Mauricio González Rivas",
+            "Fabrizio Iván González Mora",
+            "Carolina Verá González",
+            "Mariam Jazmín Cáceres Fernández",
+            "Octavio Daniel Perina Casco"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/44/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/44/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/44/portada.jpeg"
+    },
+      {
+        "id": 47,
+        "titulo": "Gravitación universal. Leyes del movimiento planetario de Kepler",
+        "categoria": "laboratorio-fisica",
+        "categoriaNombre": "Laboratorio de Física",
+        "area": "ingenieria-informatica",
+        "descripcion": "El publico podrá observar,  con el equipo de laboratorio instalado, el movimiento circular similar al de los planetas y podrá verificar las leyes establecidas por Kepler",
+        "problema": "¿Cómo puede comprobarse experimentalmente, mediante un modelo rotacional y la proyección de su trayectoria, el comportamiento geométrico asociado a la Primera Ley de Kepler y la relación entre el período orbital y el radio, además de analizar la constancia del área barrida descrita por la Segunda Ley?",
+        "objetivoGeneral": "Estudiar experimentalmente el movimiento planetario mediante la proyección de una trayectoria y el análisis de magnitudes relacionadas con las leyes de Kepler.",
+        "objetivosEspecificos": [
+            "Determinar experimentalmente la validez de la Primera Ley de Kepler, analizando la proyección elíptica descrita por el planeta respecto al foco gravitatorio.", 
+            "Comprobar cualitativamente la Segunda Ley de Kepler, verificando la constancia del ritmo con el que el radio vector barre áreas orbitales.",
+            "Verificar la Tercera Ley de Kepler mediante la relación cuantitativa entre el período de revolución y el radio orbital medio.",
+            "Calcular la constante de Kepler para el sistema experimental y evaluar sus fuentes de incertidumbre."
+        ],
+        "desarrollo": "Se montó un aparato rotacional Cidepe con un contrapeso situado a un radio de 6,00cm y alimentado a 5VCC, proyectando su sombra sobre una mampara inclinada para obtener una trayectoria elíptica; posteriormente, se cronometró un tiempo de 16,37s para 10 revoluciones con el fin de analizar magnitudes cinemáticas asociadas al movimiento planetario y a las leyes de Kepler.",
+        "resultados": "Se confirmó geométricamente la elipse y se determinaron las siguientes magnitudes: un período medio de 1,637s, una frecuencia de 0,611Hz, un cuadrado del período de 2,680s² , un cubo del radio de 216,00cm3 y una constante experimental de Kepler de 0,0124s²/cm3, identificando como principales fuentes de incertidumbre el tiempo de reacción del cronómetro manual y las leves fluctuaciones de tensión.",
+        "ubicacion": "Subsuelo - Stand 47",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Emily Arevalos",
+            "Fatima Maldonado ",
+            "Derlis Benitez", 
+            "Mariela Nuñez",
+            "Rebeca Vera"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/47/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/47/anexo2.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/47/anexo1.jpeg"
+    },
+
+    {
+        "id": 49,
+        "titulo": "Sistema de gestión de cotizaciones e inventario para impresión 3D- Printea",
+        "categoria": "programacion-vi",
+        "categoriaNombre": "Programación VI",
+        "area": "ingenieria-informatica",
+        "descripcion": "Printea es un sistema de gestión desarrollado para un emprendimiento de impresión 3D. Permite calcular cotizaciones de forma precisa a partir del consumo de filamento, el tiempo de impresión, la energía y otros costos, y llevar el control del inventario de materiales y productos. Durante la exposición, el público podrá ver en la app cómo se cotiza una pieza en tiempo real y cómo se actualiza el stock de materiales, conocer la impresora 3D utilizada y piezas fabricadas con ella, y, si las condiciones lo permiten, observar la impresión de piezas en vivo. También se presentará la evolución planificada del sistema hacia una plataforma web.",
+        "problema": "La gestión del emprendimiento mediante WhatsApp y planillas provocaba pedidos superpuestos, precios fijados sin conocer el costo real de fabricación, descontrol en el inventario de filamentos y gastos invisibles (como la electricidad y el desgaste de las máquinas) que no se cobraban.",
+        "objetivoGeneral": "Desarrollar un sistema de gestión multiplataforma en Flutter que centralice los pedidos, clientes, costos, inventario y caja de Printea, con control de acceso por rol, y ponerlo en uso real en el negocio.",
+        "objetivosEspecificos": [
+            "Registrar clientes y pedidos con su ciclo de vida completo: cotizado, confirmado, en producción, listo, entregado o cancelado.",
+            "Calcular el costo de producción de cada pieza con los mismos criterios de la planilla del negocio, y sugerir un precio de venta con la rentabilidad deseada.",
+            "Controlar el stock de filamentos e insumos, descontándolo automáticamente al producir.",
+            "Llevar la caja mensual: cobros, compras, gastos, ganancia y fondos de electricidad y mantenimiento.",
+            "Proteger los datos con autenticación y permisos aplicados en la propia base de datos.",
+            " Validar las reglas de negocio con pruebas automatizadas."
+        ],
+        "desarrollo": "Se construyó Printeapp, un sistema multiplataforma (utilizando Flutter, Supabase y PostgreSQL) que automatiza el cálculo de costos reales por pieza, gestiona el avance de los pedidos descontando el stock automáticamente y resguarda los datos mediante políticas de seguridad a nivel de fila (RLS) en la base de datos.",
+        "resultados": "La aplicación unificó y centralizó toda la información en la nube, hizo visibles los costos ocultos asegurando el margen de ganancia y superó 125 pruebas unitarias, encontrándose en uso real y exitoso en el negocio desde el 11 de octubre de 2026.",
+        "ubicacion": "Subsuelo - Stand 49",
+        "enlaceRepo": "",
+        "integrantes": [
+            "Erica Bordón",
+            "Patricia Benítez",
+            "Fabrizzio Burgos",
+            "Bruno Moreira",
+            "Cristhian Douglas"
+        ],
+        "anexos": [
+            {
+                "img": "../assets/stands/49/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/49/anexo1.jpeg",
+                "titulo": ""
+            }
+        ],
+        "imagen": "../assets/stands/49/anexo2.jpeg"
+    },
+
+
+    {
+        "id": 50,
+        "titulo": "Ley de Boyle-Mariotte: verificación experimental en un gas confinado",
         "categoria": "fisica-ii",
         "categoriaNombre": "Física II",
         "area": "ingenieria-informatica",
-        "descripcion": "Estudio práctico y medición experimental de la gravedad local utilizando un péndulo simple con sensores ópticos de alta precisión.",
-        "problema": "Falta de datos experimentales precisos sobre la gravedad específica en las coordenadas del campus universitario.",
-        "objetivoGeneral": "Determinar con precisión la aceleración de la gravedad mediante la medición del período de oscilación de un péndulo.",
+        "descripcion": "Estudio experimental del comportamiento de un gas confinado sometido a una transformación isotérmica. Mediante un panel gaseológico con manómetro se comprimió progresivamente una masa de aire y se registró cómo aumentaba su presión a medida que se reducía el volumen. Los datos obtenidos permiten verificar gráficamente la ley de Boyle-Mariotte, determinar la constante que la rige y, sobre todo, medir cuánto se aparta una medición real del modelo teórico y explicar por qué.",
+        "problema": "La ley de Boyle-Mariotte se deduce del modelo de gas ideal, que supone moléculas puntuales, sin volumen propio y sin fuerzas de atracción entre sí. Ningún gas real cumple esas condiciones de forma exacta, de modo que la ley es siempre una aproximación cuyo margen de validez depende de las condiciones de trabajo. La bibliografía suele presentar el enunciado como un hecho cerrado, sin cuantificar cuánto se aparta de él una medición concreta ni qué parte de ese apartamiento corresponde al gas y cuál al instrumento. Ese es el vacío que aborda el proyecto: no basta con comprobar que la ley se cumple, interesa medir la magnitud de la desviación observada y distinguir sus causas.",
+        "objetivoGeneral": "Estudiar experimentalmente el comportamiento de un gas confinado sometido a una transformación isotérmica y verificar la validez de la ley de Boyle-Mariotte.",
         "objetivosEspecificos": [
-            "Implementar un sistema de conteo de oscilaciones mediante barrera infrarroja.",
-            "Variar la longitud del hilo del péndulo para obtener múltiples puntos de medición.",
-            "Realizar la regresión lineal en software estadístico para minimizar el error experimental."
+            " determinar la presión absoluta del gas confinado y el volumen inicial de la muestra por vía indirecta. ",
+            "construir las gráficas de la presión frente al volumen y frente a la inversa del volumen, y obtener la constante de Boyle a partir de ellas.",
+            "cuantificar la desviación del producto presión por volumen e identificar sus causas probables. "
         ],
-        "desarrollo": "Se empleó una estructura metálica fija, un hilo inextensible y una esfera de acero. Un sensor óptico conectado a un microcontrolador registra exactamente el paso de la esfera, eliminando el error humano del cronómetro manual.",
-        "resultados": "Se obtuvo un valor de aceleración de 9.81 m/s² con un margen de error menor al 1% en comparación con la constante teórica regional.",
-        "ubicacion": "Planta Baja - Pasillo Central, Stand A3",
+        "desarrollo": "La experiencia se realizó en el Laboratorio de Física de la Facultad de Ingeniería con un panel gaseológico conjunto Emília montado sobre trípode universal, provisto de un manómetro de carátula de 0 a 1 kgf/cm². Con la válvula abierta se registró la presión atmosférica local, 0,9995 kgf/cm². Se cerró entonces la válvula y se hizo avanzar el émbolo en seis etapas de cuatro vueltas cada una; dado que cada vuelta desplaza 0,45 mL, la reducción de volumen por etapa fue de 1,80 mL. En cada etapa se leyó la presión manométrica y se le sumó la atmosférica para obtener la presión absoluta, único valor con el que la ley se cumple. El volumen inicial de la muestra no puede medirse de forma directa porque incluye el volumen muerto del manómetro y la tubería, así que se lo despejó de la propia ley: resultó 29,48 mL. ",
+        "resultados": "Al representar la presión frente a la inversa del volumen, los seis puntos se alinean sobre una recta de ecuación P = 45,44 · (1/V) − 0,58, con un coeficiente de determinación R² = 0,9992. Esta linealidad verifica el enunciado central de la ley. \n• La constante de Boyle obtenida fue K = 32,06 kgf/cm²·mL. \n• La pendiente media de la curva presión-volumen resultó −0,0889 kgf/cm²·mL⁻¹, lo que confirma que ambas magnitudes varían en sentido contrario. \n• El producto P·V no se mantuvo rigurosamente constante: creció un 18 % entre el primer y el último estado, con una dispersión del 5,5 % respecto de la media. \nEsa desviación no se atribuye al comportamiento real del gas: las presiones manejadas no superaron 1,86 kgf/cm², menos de dos atmósferas, régimen en el que el aire se comporta prácticamente como gas ideal. El hecho de que la desviación crezca de forma monótona y no aleatoria apunta a la pérdida de isotermia durante la compresión, sumada a los errores sistemáticos en la determinación del volumen inicial y al uso del desplazamiento nominal de 0,45 mL por vuelta, que es un dato del fabricante y no una medición. \nLa conclusión práctica del trabajo excede la física del gas: cuando una medición se aparta del modelo, lo primero es averiguar si la diferencia viene del fenómeno o del instrumento, porque de esa distinción depende la decisión técnica que se tome después.",
+        "ubicacion": "Subsuelo - Stand 50",
         "enlaceRepo": "",
         "integrantes": [
-            "Juan Pérez",
-            "María Gómez"
+            "Rodney Mauricio Mazier Paiva",
+            "Emilio Sebastián Cardozo",
+            "Jorge Emilio Ferreira Ruiz", 
+            "Alder Salinas"
         ],
         "anexos": [
             {
-                "img": "../assets/img/stands/fisica1.jpg",
-                "titulo": "Montaje del péndulo con sensor"
+                "img": "../assets/stands/50/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/50/integrantes2.jpeg",
+                "titulo": ""
             }
         ],
-        "imagen": "../assets/img/portada/stands.png"
+        "imagen": "../assets/stands/50/portada.jpeg"
     },
+
     {
-        "id": 7,
-        "titulo": "Robot Móvil Autónomo Evita-Obstáculos",
-        "categoria": "robotica",
-        "categoriaNombre": "Robótica",
+        "id": 51,
+        "titulo": "Diseño y Construcción de un Cañón de Gauss sobre Guía en V para el Estudio Práctico de Choques y Tiro Parabólico ",
+        "categoria": "fisica-ii",
+        "categoriaNombre": "Física II",
         "area": "ingenieria-electromecanica",
-        "descripcion": "Diseño de un vehículo robótico capaz de navegar de manera autónoma en laberintos utilizando sensores ultrasónicos y lógica de control difuso.",
-        "problema": "Dificultad de los robots móviles convencionales para sortear obstáculos dinámicos en entornos no estructurados.",
-        "objetivoGeneral": "Construir un robot móvil autónomo capaz de detectar y esquivar obstáculos en tiempo real.",
+        "descripcion": "El proyecto consiste en el diseño, armado y prueba de un Cañón de Gauss (un acelerador lineal magnético) fabricado con materiales sencillos y reciclados. Su objetivo principal es demostrar de manera visual y práctica cómo la atracción de imanes permanentes se convierte en velocidad real a través de choques en cadena, uniendo conceptos de Física, Geometría y Análisis Numérico.",
+        "problema": "Los rieles tradicionales causan rebotes y frenado, y la diferencia de tamaño entre las esferas (10 mm) y los imanes (8 mm) provocaba que las piezas saltaran al chocar.",
+        "objetivoGeneral": "Construir y evaluar un Cañón de Gauss sobre una guía de madera en forma de V de 1,50 m para demostrar en vivo la transferencia de energía en choques sucesivos y determinar su velocidad de disparo mediante tiro parabólico. ",
         "objetivosEspecificos": [
-            "Integrar sensores de distancia ultrasónicos HC-SR04.",
-            "Programar la máquina de estados finitos en lenguaje C para la toma de decisiones.",
-            "Calibrar los motores de corriente continua mediante controladores PWM."
+            "Garantizar que las bolitas de acero de 10 mm y los imanes de 8 mm choquen de forma totalmente frontal, aprovechando el autocentrado del canal en V y nivelando sus alturas mediante trigonometría básica. ",
+            "Optimizar la ubicación de los 6 imanes y las 5 bolitas de acero disponibles sobre el riel de 1,50 m para lograr la mayor velocidad de salida posible sin que las etapas se frenen entre sí.",
+            "Medir experimentalmente la velocidad de disparo usando una cinta métrica y papel carbónico en el suelo, aplicando teoría de errores para comparar distintas configuraciones de imanes. "
         ],
-        "desarrollo": "El chasis fue impreso en 3D y equipado con una placa de desarrollo. Los datos de distancia se procesan cíclicamente para decidir giros a la izquierda o derecha según la proximidad de las paredes.",
-        "resultados": "El robot completó circuitos de prueba complejos con una tasa de éxito del 95% sin colisiones.",
-        "ubicacion": "Segundo Piso - Ala Tecnológica, Stand R1",
-        "enlaceRepo": "https://github.com/expo-uninorte/robot-autonomo",
+        "desarrollo": "Se construyó una guía de madera aislante en forma de V para centrar las bolas, se usaron calzos de 1 mm para nivelar los impactos, y se calculó la velocidad registrando la caída libre sobre papel carbónico.",
+        "resultados": "El sistema multiplicó la velocidad inicial casi por siete, logrando un disparo limpio de 3,05 m/s con gran repetibilidad y un margen de error menor al 2%.",
+        "ubicacion": "Subsuelo - Stand 51",
+        "enlaceRepo": "",
         "integrantes": [
-            "Carlos Benítez",
-            "Rodrigo Acosta"
+            "Ruben Llanes",
+            "Elias Garcete", 
+            "Blass Sosa"
         ],
         "anexos": [
             {
-                "img": "../assets/img/stands/robot1.jpg",
-                "titulo": "Chasis y sensores montados"
+                "img": "../assets/stands/51/anexo.jpeg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/51/anexo2.jpeg",
+                "titulo": ""
             }
         ],
-        "imagen": "../assets/img/stands/foto-electronica.jpg"
+        "imagen": "../assets/stands/51/anexo3.jpeg"
     },
+
     {
-        "id":8 ,
-        "titulo": "Sistema de Riego Automatizado por IoT",
-        "categoria": "proyecto-independiente",
-        "categoriaNombre": "Proyecto Independiente",
-        "area": "ingenieria-telecomunicaciones",
-        "descripcion": "Plataforma conectada a internet que monitorea la humedad del suelo y acciona electroválvulas de riego de forma remota o automática.",
-        "problema": "Desperdicio hídrico en cultivos urbanos debido a la falta de riego oportuno y controlado.",
-        "objetivoGeneral": "Desarrollar un sistema de riego inteligente basado en el protocolo MQTT y sensores de humedad.",
+        "id": 52,
+        "titulo": "Bobina Tesla",
+        "categoria": "fisica",
+        "categoriaNombre": "Física",
+        "area": "ingenieria-electromecanica",
+        "descripcion": "Es un estudio teórico-práctico sobre la transmisión inalámbrica de energía (inspirado en la Torre de Tesla) que compara el funcionamiento de una bobina de Tesla casera con un modelo comercial de estado sólido.",
+        "problema": "Se busca comprender por qué la visión de Tesla de transmisión global no fue viable en su época y comprobar si los principios físicos que la sustentan (resonancia e inducción electromagnética) operan realmente en configuraciones a menor escala.",
+        "objetivoGeneral": "Analizar los fundamentos físicos del proyecto de la Torre de Tesla y validarlos mediante el diseño, construcción y prueba de un prototipo de transmisión inalámbrica de energía. ",
         "objetivosEspecificos": [
-            "Conectar sensores capacitivos de humedad a un módulo ESP8266.",
-            "Desarrollar un tablero web para visualización de datos en tiempo real.",
-            "Configurar alertas automáticas vía Telegram."
+            "Diseñar, calcular y ensamblar un prototipo compuesto por una bobina de Tesla transmisora y un sistema receptor, definiendo materiales, dimensiones y parámetros de operación.",
+            "Evaluar experimentalmente el alcance, eficiencia y limitaciones de la transmisión obtenida, comparando el comportamiento del prototipo con la visión original de Tesla. "
         ],
-        "desarrollo": "Se programó el microcontrolador para enviar lecturas cada 30 minutos a un broker MQTT en la nube. Si la humedad baja del umbral establecido, se activa una bomba de 12V mediante un relé.",
-        "resultados": "Optimización del uso de agua en un 40% durante las pruebas piloto de dos semanas.",
-        "ubicacion": "Primer Piso - Hall Central, Stand P8",
-        "enlaceRepo": "https://github.com/expo-uninorte/riego-iot",
+        "desarrollo": "Se diseñó un circuito oscilador utilizando un tubo de PVC, alambre de cobre, un transistor 2N2222A y una batería de 9 V, calculando matemáticamente su inductancia y frecuencia (50-70 kHz) para luego contrastar su desempeño con el equipo comercial.",
+        "resultados": "El prototipo casero logró transmitir energía e iluminar lámparas sin cables a una distancia de 3 a 5 cm. Se comprobó que los principios físicos son completamente válidos, aunque el equipo comercial evidenció mayor estabilidad, potencia y capacidades extra como la modulación de audio por plasma.",
+        "ubicacion": "Subsuelo - Stand 52",
+        "enlaceRepo": "",
         "integrantes": [
-            "Ana Martinez",
-            "Patricia Duarte"
+            "Nestor Benitez",
+            "Richard Figori", 
+            "Rodrigo Gómez",
+            "Marcos Melgarejo",
+            "Alexandra Torales",
+            "Danna Vázquez"
         ],
         "anexos": [
             {
-                "img": "../assets/img/stands/riego1.jpg",
-                "titulo": "Prototipo en placa de pruebas"
+                "img": "../assets/stands/52/anexo.jpg",
+                "titulo": ""
+            },
+            {
+                "img": "../assets/stands/52/anexo2.jpg",
+                "titulo": ""
             }
         ],
-        "imagen": "../assets/img/stands/foto-telecom.jpg"
+        "imagen": "../assets/stands/52/anexo3.jpg"
     }
-  
- 
 ]

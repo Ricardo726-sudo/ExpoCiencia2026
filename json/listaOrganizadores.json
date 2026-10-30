@@ -49,6 +49,22 @@
             "carrera": "Ingeniería Informática",
             "descripcion": "Recopilación de la historia de la ExpoCiencia, documentación sobre las autoridades de la facultad y coordinación de los líderes de la actividad.",
             "imagen": "../assets/organizadores/eliasDesarrollo.jpeg"
+        },
+         {
+            "id": 4,
+            "nombre": "Rodrigo Gonzales ",
+            "rol": " Asistente en Servidor",
+            "carrera": "Ingeniería Informática",
+            "descripcion":" Encargado de la gestión de la infraestructura backend, control de servidores, optimización del rendimiento y despliegue en línea de la plataforma.",
+            "imagen": "../assets/organizadores/Rodrigo.jpeg"
+        },
+         {
+            "id": 5,
+            "nombre": "Santtino Gomez ",
+            "rol": "Backend",
+            "carrera": "Ingeniería Informática",
+            "descripcion":"Desarrollo de la encuesta digital y generación de códigos QR personalizados para cada stand.",
+            "imagen": "../assets/organizadores/santino.jpeg"
         }
     ]
 }
